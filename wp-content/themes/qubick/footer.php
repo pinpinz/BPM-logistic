@@ -1,5 +1,4 @@
-
-<footer class="bg-white dark:bg-gray-100">
+<footer class="bg-gray-100 dark:bg-gray-100">
     <div class="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
         <a href="#" class=" hover:underline"><h1>BCM Logistic</h1></a>
     </div>
@@ -67,3 +66,4 @@
         </div>
     </div> -->
 </footer>
+

@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
-    <title>
+    <!-- <title>
         <?php 
-            if(isset($page_title)){
-                echo $page_title;
-            }
+            // if(isset($page_title)){
+            //     echo $page_title;
+            // }
         ?>
         [PAGE TITILE]
-    </title>
+    </title> -->
 
     <?php wp_head(); ?>
 </head>
@@ -21,6 +21,6 @@
         <?php include 'navbar.php';?>
     
 
-        <div class="site-content relative" style="max-width: 100vw; overflow-x: hidden">
+        <div class="site-content relative px-10 " style="max-width: 100vw; overflow-x: hidden">
 
         

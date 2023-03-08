@@ -13,7 +13,9 @@
             <a href="#" 
                class="  flex 
                         items-center 
-                        lg:pl-52"
+                        lg:pl-52
+                        pl-12"
+                        
             >
                  <?php
                     // $custom_logo_id = get_theme_mod( 'custom_logo' );

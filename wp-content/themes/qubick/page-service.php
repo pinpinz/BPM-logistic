@@ -2,15 +2,15 @@
     include 'header.php';
 ?>
 <main class="mt-20">
-                    <section class="bg-white dark:bg-gray-100">  
+                <section class="bg-white dark:bg-gray-100">  
                         
-                    <div class="grid max-w-screen-xl px-8 md:px-36 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 ">
+                    <div class="grid max-w-screen-xl px-8 md:px-0 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 ">
                         <div class="place-self-left lg:col-span-12 ">
                             <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 font-sans">INDUSTRI</h1>
                             <h1 class="max-w-2xl mb-4 text-sm font-normal leading-none tracking-tight text-grey-700 font-sans">we have been working from small to enterprise businesses and have experience in a <br>number of industries, ranging from severed industies as follow.</h1>
                         </div>
                     </div>
-                    <div class="hidden lg:flex grid max-w-screen-xl md:px-36 lg:px-42 mx-auto gap-14 py-8 grid-cols-7">
+                    <div class="hidden lg:flex grid w-11/12 md:w-5/6 xl:w-2/3 mx-auto gap-14 py-8 grid-cols-7">
                       
                         <div class="pt-10 place-self-center col-span-1 hover:bg-yellow-400 hover:w-2/3">
                             <div class="rounded-full border-slate-100 bg-slate-100 place-self-center drop-shadow-2xl py-2 px-2">
@@ -64,7 +64,32 @@
                         
                     </div>
                     
-                    </section>
+                </section>
+
+
+                <section class="bg-yellow-400 dark:bg-yellow-400">    
+                        
+                    <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 ">
+                        <div class="place-self-center lg:col-span-12 ">
+                            <h1 class="max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-4xl xl:text-4xl text-white font-sans">A WIDE RANGE OF TAILORED SERVICES</h1>
+                        </div>
+                    </div>
+                    <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 grid-cols-3">
+                        <div class=" place-self-center lg:col-span-4 ">
+                            <img class="h-32 lg:h-60 mb-3 lg:mb-0" src="<?php bloginfo('template_directory');?>/images/Asset 4.png" alt="HeroImage"> 
+                            <h2 class="hidden lg:block max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white font-sans text-center mt-10 pr-7">Sea Freight</h2>
+                        </div>
+                        <div class="flex place-self-center lg:col-span-4 lg:block">
+                            <img class="h-32 lg:h-60 mb-3 lg:mb-0" src="<?php bloginfo('template_directory');?>/images/Asset 5.png" alt="HeroImage"> 
+                            <h2 class="hidden lg:block max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white font-sans text-center mt-10 pr-7">Air Freight</h2>
+                        </div>
+                            <div class="flex place-self-center lg:col-span-4 lg:block">
+                            <img class="h-32 lg:h-60 mb-3 lg:mb-0" src="<?php bloginfo('template_directory');?>/images/Asset 6.png" alt="HeroImage"> 
+                            <h2 class="hidden lg:block max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white font-sans text-center mt-10 pr-7">Warehousing</h2>
+                        </div>
+                    </div>
+                    
+                </section>
 
                 <section class="bg-white dark:bg-gray-100">
                         <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">

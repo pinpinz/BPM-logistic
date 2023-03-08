@@ -1,7 +1,7 @@
 <header id="header-menu" role="navigation" 
     class="
         fixed top-0 w-full 
-        px-10 py-8
+        px-10 py-0
         z-[10]
     "
 >
@@ -13,7 +13,7 @@
             <a href="#" 
                class="  flex 
                         items-center 
-                        lg:pl-52
+                        md:pl-52
                         pl-12"
                         
             >
@@ -41,6 +41,7 @@
                     w-full
                     md:block
                     md:w-auto
+                    md:pr-52
                 " 
             >
                 <?php
@@ -52,7 +53,7 @@
                             'container_class' => 'navbar-nav',
                             'menu_class' => '   flex 
                                                 flex-col 
-                                                p-4 
+                                                p-2 
                                                 mt-4 
                                                 border 
                                                 border-gray-100 
@@ -60,13 +61,13 @@
                                                 bg-sky-900 
                                                 md:flex-row 
                                                 md:space-x-8 
-                                                md:mt-0 
-                                                md:text-sm 
-                                                md:font-medium 
+                                                
+                                                md:text-xs 
+                                                md:font-normal 
                                                 md:border-0 
                                                 dark:border-gray-700 ', // shoulde be for <ul></ul> class
                             'add_li_class' => ' block 
-                                                py-2 
+                                                py-0 
                                                 pl-3 
                                                 pr-4 
                                                 text-white 
@@ -75,7 +76,7 @@
                                                 md:hover:bg-transparent 
                                                 md:border-0 
                                                 md:hover:text-yellow-400 
-                                                md:p-0 dark:text-gray-400 
+                                                 dark:text-gray-400 
                                                 md:dark:hover:text-yellow-400 
                                                 dark:hover:bg-gray-700 
                                                 dark:hover:text-yellow-400 

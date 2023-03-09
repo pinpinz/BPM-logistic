@@ -1,6 +1,6 @@
        
 
-                <div class="bg-gray-300 dark:bg-gray-300 lg:px-60">
+                        <div class="bg-gray-300 dark:bg-gray-300 lg:px-60">
                             <div class="grid grid-cols-2 gap-8 px-6 py-4 md:grid-cols-4">
                             <img class="w-40" src="<?php bloginfo('template_directory');?>/images/AssetLogo12.png" alt="logo">
                             </div>
@@ -78,8 +78,8 @@
                                     </div>
                                 </div>
                             </div>
-                    </div>
-        </div>
+                        </div>
+            </div>
         <?php wp_footer(); ?>
 
     </body>

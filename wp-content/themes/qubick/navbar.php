@@ -62,7 +62,7 @@
                                                 md:flex-row 
                                                 md:space-x-8 
                                                 
-                                                md:text-xs 
+                                                md:text-sm 
                                                 md:font-normal 
                                                 md:border-0 
                                                 dark:border-gray-700 ', // shoulde be for <ul></ul> class
@@ -76,7 +76,7 @@
                                                 md:hover:bg-transparent 
                                                 md:border-0 
                                                 md:hover:text-yellow-400 
-                                                 dark:text-gray-400 
+                                                dark:text-gray-400 
                                                 md:dark:hover:text-yellow-400 
                                                 dark:hover:bg-gray-700 
                                                 dark:hover:text-yellow-400 

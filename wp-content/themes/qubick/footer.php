@@ -10,7 +10,7 @@
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
-                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">Jl. Kalianget No.15B Perak Utara, Surabaya, Jawa Timur 60615 Ph.+62333287604</a>
+                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">Jl. Kalianget No.15B Perak Utara, <br>Surabaya, Jawa Timur 60615 <br>Ph.+62333287604</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -19,7 +19,7 @@
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
-                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">Graha Harmoni 5th Floor, Jl Gaharu no.28, Medan Sumatera Utara 20235 Ph.+62615141755</a>
+                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">Graha Harmoni 5th Floor, <br>Jl Gaharu no.28, Medan Sumatera Utara 20235 <br>Ph.+62614141755</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -28,7 +28,7 @@
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
-                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">18444 Due Giang Street, Long Beach District, Hanoi, Vietnam Ph.+843957711954</a>
+                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">18444 Due Giang Street, <br>Long Beach District, Hanoi, Vietnam <br>Ph.+843957711954</a>
                                         </li>
                                     </ul>
                                 </div>

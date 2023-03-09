@@ -48,7 +48,7 @@
 
             // REGISTER STYLES - START
                 function bcm_register_styles(){
-                    wp_enqueue_style('bcm-style', get_template_directory_uri().'/style.css', array(), '', 'all');
+                    wp_enqueue_style('bcm-style', get_template_directory_uri().'/style.css', array(), '1', 'all');
                     wp_enqueue_style('bcm-font-arimo', get_template_directory_uri().'/inc/asset/font/font.css', array(), '', 'all');
                     wp_enqueue_style('bcm-all', get_template_directory_uri().'/inc/asset/css/all.css', array(), '', 'all');
                     wp_enqueue_style('bcm-slick', get_template_directory_uri().'/inc/cdn/slick/slick.css', array());

@@ -10,3 +10,17 @@ License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
 Text Domain: my-custom-theme
 Tags: custom-background
 */
+
+.l1:hover .l2 .l3 {
+    width: 3rem;
+    padding-top: 0;
+}
+
+.l1:hover .l2 {
+    background-color: transparent;
+
+}
+
+.l1:hover .l4 {
+    display: block;
+}

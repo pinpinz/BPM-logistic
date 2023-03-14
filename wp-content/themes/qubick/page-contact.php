@@ -15,7 +15,7 @@
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
-                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">Jl. Kalianget No.15B Perak Utara, <br>Surabaya, Jawa Timur 60615 <br>Ph.+62 31 328 7604 <br>+62 31 328 5278</a>
+                                            <a href="#" class="flex justify-start text-black hover:underline text-xs ">Jl. Kalianget No.15B Perak Utara, <br>Surabaya, Jawa Timur 60615 <br>Ph.+62 31 328 7604 <br>+62 31 328 5278</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -24,7 +24,7 @@
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
-                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">Graha Harmoni 5th Floor, <br>Jl Gaharu no.28, Kec. Medan Timur, <br>Medan Sumatera Utara 20235 <br>Ph.+62 61 4141 755</a>
+                                            <a href="#" class="flex justify-start text-black hover:underline text-xs ">Graha Harmoni 5th Floor, <br>Jl Gaharu no.28, Kec. Medan Timur, <br>Medan Sumatera Utara 20235 <br>Ph.+62 61 4141 755</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -33,7 +33,7 @@
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
-                                            <a href="#" class="flex justify-start text-black hover:underline text-xs font-sans">18444 Due Giang Street, Long Beach District, <br>Hanoi, Vietnam <br>Ph.+84 395 77 11351</a>
+                                            <a href="#" class="flex justify-start text-black hover:underline text-xs ">18444 Due Giang Street, Long Beach District, <br>Hanoi, Vietnam <br>Ph.+84 395 77 11351</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -42,7 +42,7 @@
                             <div class="container">
                                
                                             <div>
-                                                <h1 class = "max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 font-sans">Get In Touch</h1>
+                                                <h1 class = "max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 ">Get In Touch</h1>
                                                 <p>If you have any question about us or how we can support yourr business, please contact us directly by selecting from one of the below categories in the most relevant to your inquiry and fill our short feedback form.</p>
                                             </div>
                                             <form name="sentMessage" id="contactForm" novalidate>

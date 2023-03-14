@@ -15,6 +15,21 @@
     </title> -->
 
     <?php wp_head(); ?>
+
+    <style>
+
+                @font-face {
+        font-family: 'Brandon';
+        src: url(<?php echo get_stylesheet_directory_uri(); ?>/font/regular.otf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        body,h1,h2,p {
+        font-family: 'Brandon';
+        }
+    </style>
+    
 </head>
     <body class="realtive">
 

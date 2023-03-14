@@ -11,6 +11,7 @@ Text Domain: my-custom-theme
 Tags: custom-background
 */
 
+
 .l1:hover .l2 .l3 {
     width: 3rem;
     padding-top: 0;
@@ -23,4 +24,8 @@ Tags: custom-background
 
 .l1:hover .l4 {
     display: block;
+}
+
+body {
+    font-family: 'BrandonText', sans-serif;
 }

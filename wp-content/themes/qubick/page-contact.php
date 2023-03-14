@@ -10,7 +10,7 @@
                         
                     <div class="grid max-w-screen-xl px-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-4 lg:grid-cols-12 flex">
                         <div class="place-self-start col-span-6 mt-12 ">
-                            <div>
+                            <div class="gs_revealY">
                                     <h2 class="mb-2 text-xs font-semibold text-black uppercase dark:text-gray-400">Head Office - Surabaya, Indonesia</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
@@ -19,7 +19,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div>
+                                <div class="gs_revealX">
                                     <h2 class="mb-2 text-xs font-semibold text-black uppercase dark:text-gray-400">Operational Office - Medan, Indonesia</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
@@ -28,7 +28,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div>
+                                 <div class="gs_revealY">
                                     <h2 class="mb-2 text-xs font-semibold text-black uppercase dark:text-gray-400">Operational Office - Ha Noi, Vietnam</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>
@@ -39,7 +39,7 @@
                                 </div>
                         </div>
                         <div class="place-self-start col-span-6 ">
-                            <div class="container">
+                            <div class="container gs_revealX">
                                
                                             <div>
                                                 <h1 class = "max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 ">Get In Touch</h1>

@@ -7,14 +7,14 @@
     <section class="bg-white dark:bg-gray-100">
        
        <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-          <div class="hidden lg:mt-0 lg:col-span-4 lg:block pl-24">
+          <div class="hidden lg:mt-0 lg:col-span-4 lg:block pl-24 gs_revealY">
           <img class="max-w-l mb-10" src="<?php bloginfo('template_directory');?>/images/about/Asset12.png" alt="logo">
            
                   <img class="" src="<?php bloginfo('template_directory');?>/images/about/Asset 6.png" alt="HeroImage">  
                   
           </div>
           
-          <div class="lg:mr-auto place-self-center lg:col-span-8 px-24 ">
+          <div class="lg:mr-auto place-self-center lg:col-span-8 px-24 gs_revealX">
                   <h1 class="max-w-l mb-4 text-2xl font-bold leading-none tracking-tight  text-yellow-300 ">WHO  WE ARE ?</h1>  
                   <p class="w-[30rem] mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">"Creating a network to assist you in reaching your potential buyers and growing your business."
                     <br><br>We are a dedicated, professional, transparent team with 12 years of experience serving our client's logistics needs and creating a total solution by connecting and providing solutions to their business (not just logistics) while prioritizing a long-term relationship to grow.
@@ -36,7 +36,7 @@
                          
       </div>
     </section>
-    <section class="bg-yellow-400 dark:bg-yellow-400">        
+    <section class="bg-yellow-400 dark:bg-yellow-400 gs_revealX">        
         <div class="grid max-w-screen-xl px-28 py-12 mx-auto  lg:grid-cols-12  ">
             
               <div class="hidden  md:col-span-3 lg:block ">
@@ -74,7 +74,7 @@
         </div>
     </section>
 
-    <section class="bg-sky-900 dark:bg-sky-900">        
+    <section class="bg-sky-900 dark:bg-sky-900 gs_revealX">        
         <div class="grid max-w-screen-xl px-28 py-12 mx-auto  lg:grid-cols-12  ">
             
               <div class="hidden  md:col-span-3 lg:block ">

@@ -18,7 +18,7 @@
 
     <style>
 
-                @font-face {
+        @font-face {
         font-family: 'Brandon';
         src: url(<?php echo get_stylesheet_directory_uri(); ?>/font/regular.otf) format('truetype');
         font-weight: normal;

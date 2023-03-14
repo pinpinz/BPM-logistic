@@ -1,5 +1,74 @@
        
+<script>
 
+    function animateFromY(elem, direction) {
+        direction = direction || 1;
+        var x = 0,
+            y = direction * 200;
+            
+        elem.style.transform = "translate(" + x + "px, " + y + "px)";
+        elem.style.opacity = "0";
+        gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
+            duration: 3, 
+            x: 0,
+            y: 0, 
+            autoAlpha: 1, 
+            ease: "expo", 
+            overwrite: "auto"
+        });
+    }
+    function animateFromX(elem, direction) {
+        direction = direction || 1;
+        var x = direction * 200,
+            y = 0;
+            
+        elem.style.transform = "translate(" + x + "px, " + y + "px)";
+        elem.style.opacity = "0";
+        gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
+            duration: 3, 
+            x: 0,
+            y: 0, 
+            autoAlpha: 1, 
+            ease: "expo", 
+            overwrite: "auto"
+        });
+    }
+
+    function hide(elem) {
+        gsap.set(elem, {autoAlpha: 0});
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        gsap.registerPlugin(ScrollTrigger);
+        
+        gsap.utils.toArray(".gs_revealX").forEach(function(elem) {
+            hide(elem); // assure that the element is hidden when scrolled into view
+            
+            ScrollTrigger.create({
+                trigger: elem,
+                markers: false,
+                onEnter: function() { animateFromX(elem) }, 
+                onEnterBack: function() { animateFromX(elem, -1) },
+                onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
+            });
+        })
+
+        gsap.utils.toArray(".gs_revealY").forEach(function(elem) {
+            hide(elem); // assure that the element is hidden when scrolled into view
+            
+            ScrollTrigger.create({
+                trigger: elem,
+                markers: false,
+                onEnter: function() { animateFromY(elem) }, 
+                onEnterBack: function() { animateFromY(elem, -1) },
+                onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
+            });
+        }).delay(2);
+    });
+
+
+
+</script>
                         <div class="bg-gray-300 dark:bg-gray-300 lg:px-60">
                             <div class="grid grid-cols-2 gap-8 px-6 py-4 md:grid-cols-4">
                             <img class="w-40" src="<?php bloginfo('template_directory');?>/images/AssetLogo12.png" alt="logo">

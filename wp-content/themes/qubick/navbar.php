@@ -31,7 +31,7 @@
                  <img class="w-40" src="<?php bloginfo('template_directory');?>/images/Asset 12.png" alt="logo">
             </a>
 
-            <button type="button" class="hidden navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button type="button" class="md:hidden navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
 

@@ -41,7 +41,7 @@
                             <div class="lg:mr-auto place-self-center lg:col-span-8 lg:px-24 ">
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-bold">Has been engaged in logistic for more than 25 years, now we provide better service <br>by create, connect, and provide total solution to our clients <br>businesses while prioritizing long term relationship to grow together.</p>
                                 <h1 class="max-w-2xl mb-4 text-2xl font-bold leading-none tracking-tight md:text-4xl xl:text-4xl text-yellow-300 font-sans">1997</h1>
-                                <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-bold">The establishment of PT.Antar Benua Cahaya Custom Brokers <br>and Transportation.</p>
+                                <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-bold">The establishment of PT.Antar Benua Cahaya Custom Brokers <br>and Transportation7823.</p>
                                 <h1 class="max-w-2xl mb-4 text-2xl font-bold leading-none tracking-tight md:text-4xl xl:text-4xl text-yellow-300 font-sans">2012</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-bold">Customer award by PT.Terminal Peti Kemas Surabaya.</p>
                                 <h1 class="max-w-2xl mb-4 text-2xl font-bold leading-none tracking-tight md:text-4xl xl:text-4xl text-yellow-300 font-sans">2019</h1>

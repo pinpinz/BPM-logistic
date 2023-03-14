@@ -20,6 +20,8 @@ use Google\Site_Kit\Core\Modules\Module_With_Deactivation;
 use Google\Site_Kit\Core\Modules\Module_With_Debug_Fields;
 use Google\Site_Kit\Core\Modules\Module_With_Assets;
 use Google\Site_Kit\Core\Modules\Module_With_Assets_Trait;
+use Google\Site_Kit\Core\Modules\Module_With_Data_Available_State;
+use Google\Site_Kit\Core\Modules\Module_With_Data_Available_State_Trait;
 use Google\Site_Kit\Core\Modules\Module_With_Scopes;
 use Google\Site_Kit\Core\Modules\Module_With_Scopes_Trait;
 use Google\Site_Kit\Core\Modules\Module_With_Settings;
@@ -47,6 +49,7 @@ use Google\Site_Kit_Dependencies\Google\Model as Google_Model;
 use Google\Site_Kit_Dependencies\Google\Service\AnalyticsData as Google_Service_AnalyticsData;
 use Google\Site_Kit_Dependencies\Google\Service\AnalyticsData\DateRange as Google_Service_AnalyticsData_DateRange;
 use Google\Site_Kit_Dependencies\Google\Service\AnalyticsData\Dimension as Google_Service_AnalyticsData_Dimension;
+use Google\Site_Kit_Dependencies\Google\Service\AnalyticsData\DimensionOrderBy as Google_Service_AnalyticsData_DimensionOrderBy;
 use Google\Site_Kit_Dependencies\Google\Service\AnalyticsData\Filter as Google_Service_AnalyticsData_Filter;
 use Google\Site_Kit_Dependencies\Google\Service\AnalyticsData\FilterExpression as Google_Service_AnalyticsData_FilterExpression;
 use Google\Site_Kit_Dependencies\Google\Service\AnalyticsData\FilterExpressionList as Google_Service_AnalyticsData_FilterExpressionList;
@@ -74,12 +77,13 @@ use WP_Error;
  * @ignore
  */
 final class Analytics_4 extends Module
-	implements Module_With_Scopes, Module_With_Settings, Module_With_Debug_Fields, Module_With_Owner, Module_With_Assets, Module_With_Service_Entity, Module_With_Deactivation {
+	implements Module_With_Scopes, Module_With_Settings, Module_With_Debug_Fields, Module_With_Owner, Module_With_Assets, Module_With_Service_Entity, Module_With_Deactivation, Module_With_Data_Available_State {
 	use Method_Proxy_Trait;
 	use Module_With_Assets_Trait;
 	use Module_With_Owner_Trait;
 	use Module_With_Scopes_Trait;
 	use Module_With_Settings_Trait;
+	use Module_With_Data_Available_State_Trait;
 
 	/**
 	 * Module slug name.
@@ -98,6 +102,18 @@ final class Analytics_4 extends Module
 		// Analytics 4 tag placement logic.
 		add_action( 'template_redirect', $this->get_method_proxy( 'register_tag' ) );
 		add_action( 'googlesitekit_analytics_tracking_opt_out', $this->get_method_proxy( 'analytics_tracking_opt_out' ) );
+
+		// Ensure that the data available state is reset when the measurement ID changes.
+		add_action(
+			'update_option_googlesitekit_analytics-4_settings',
+			function( $old_value, $new_value ) {
+				if ( $old_value['measurementID'] !== $new_value['measurementID'] ) {
+					$this->reset_data_available();
+				}
+			},
+			10,
+			2
+		);
 	}
 
 	/**
@@ -153,6 +169,7 @@ final class Analytics_4 extends Module
 	 */
 	public function on_deactivation() {
 		$this->get_settings()->delete();
+		$this->reset_data_available();
 	}
 
 	/**
@@ -302,13 +319,11 @@ final class Analytics_4 extends Module
 	 * @since 1.41.0
 	 */
 	private function analytics_tracking_opt_out() {
-		$settings       = $this->get_settings()->get();
-		$measurement_id = $settings['measurementID'];
-		if ( ! $measurement_id ) {
+		$tag_id = $this->get_tag_id();
+		if ( empty( $tag_id ) ) {
 			return;
 		}
-		BC_Functions::wp_print_inline_script_tag( sprintf( 'window["ga-disable-%s"] = true;', esc_attr( $measurement_id ) ) );
-
+		BC_Functions::wp_print_inline_script_tag( sprintf( 'window["ga-disable-%s"] = true;', esc_attr( $tag_id ) ) );
 	}
 
 	/**
@@ -703,6 +718,7 @@ final class Analytics_4 extends Module
 						'googlesitekit-datastore-site',
 						'googlesitekit-datastore-forms',
 						'googlesitekit-components',
+						'googlesitekit-modules-data',
 					),
 				)
 			),
@@ -719,13 +735,7 @@ final class Analytics_4 extends Module
 			return;
 		}
 
-		$settings = $this->get_settings()->get();
-
-		if ( Feature_Flags::enabled( 'gteSupport' ) && ! empty( $settings['googleTagID'] ) ) {
-			$tag = new Web_Tag( $settings['googleTagID'], self::MODULE_SLUG );
-		} else {
-			$tag = new Web_Tag( $settings['measurementID'], self::MODULE_SLUG );
-		}
+		$tag = new Web_Tag( $this->get_tag_id(), self::MODULE_SLUG );
 
 		if ( $tag->is_tag_blocked() ) {
 			return;
@@ -965,6 +975,22 @@ final class Analytics_4 extends Module
 	}
 
 	/**
+	 * Gets the Google Analytics 4 tag ID.
+	 *
+	 * @since 1.96.0
+	 *
+	 * @return string Google Analytics 4 tag ID.
+	 */
+	private function get_tag_id() {
+		$settings = $this->get_settings()->get();
+
+		if ( Feature_Flags::enabled( 'gteSupport' ) && ! empty( $settings['googleTagID'] ) ) {
+			return $settings['googleTagID'];
+		}
+		return $settings['measurementID'];
+	}
+
+	/**
 	 * Creates and executes a new Analytics 4 report request.
 	 *
 	 * @since 1.93.0
@@ -1173,39 +1199,36 @@ final class Analytics_4 extends Module
 	 * Parses the orderby value of the data request into an array of AnalyticsData OrderBy object instances.
 	 *
 	 * @since 1.93.0
+	 * @since 1.95.0 Updated to provide support for ordering by dimensions.
 	 *
 	 * @param array|null $orderby Data request orderby value.
 	 * @return Google_Service_AnalyticsData_OrderBy[] An array of AnalyticsData OrderBy objects.
 	 */
 	protected function parse_reporting_orderby( $orderby ) {
-		if ( empty( $orderby ) || ! is_array( $orderby ) ) {
+		if ( empty( $orderby ) || ! is_array( $orderby ) || ! wp_is_numeric_array( $orderby ) ) {
 			return array();
 		}
 
 		$results = array_map(
 			function ( $order_def ) {
-				$order_def = array_merge(
-					array(
-						'fieldName' => '',
-						'sortOrder' => '',
-					),
-					(array) $order_def
-				);
+				$order_by = new Google_Service_AnalyticsData_OrderBy();
+				$order_by->setDesc( ! empty( $order_def['desc'] ) );
 
-				if ( empty( $order_def['fieldName'] ) || empty( $order_def['sortOrder'] ) ) {
+				if ( isset( $order_def['metric'] ) && isset( $order_def['metric']['metricName'] ) ) {
+					$metric_order_by = new Google_Service_AnalyticsData_MetricOrderBy();
+					$metric_order_by->setMetricName( $order_def['metric']['metricName'] );
+					$order_by->setMetric( $metric_order_by );
+				} elseif ( isset( $order_def['dimension'] ) && isset( $order_def['dimension']['dimensionName'] ) ) {
+					$dimension_order_by = new Google_Service_AnalyticsData_DimensionOrderBy();
+					$dimension_order_by->setDimensionName( $order_def['dimension']['dimensionName'] );
+					$order_by->setDimension( $dimension_order_by );
+				} else {
 					return null;
 				}
 
-				$metric_order_by = new Google_Service_AnalyticsData_MetricOrderBy();
-				$metric_order_by->setMetricName( $order_def['fieldName'] );
-				$order_by = new Google_Service_AnalyticsData_OrderBy();
-				$order_by->setMetric( $metric_order_by );
-				$order_by->setDesc( 'DESCENDING' === $order_def['sortOrder'] );
-
 				return $order_by;
 			},
-			// When just object is passed we need to convert it to an array of objects.
-			wp_is_numeric_array( $orderby ) ? $orderby : array( $orderby )
+			$orderby
 		);
 
 		$results = array_filter( $results );

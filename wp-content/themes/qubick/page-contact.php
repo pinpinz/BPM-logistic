@@ -9,7 +9,7 @@
                 <section class="bg-white dark:bg-white">    
                         
                     <div class="grid max-w-screen-xl px-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-4 lg:grid-cols-12 flex">
-                        <div class="place-self-start col-span-6 mt-12 ">
+                        <div class="place-self-start col-span-6 md:mt-12 ">
                             <div class="gs_revealY">
                                     <h2 class="mb-2 text-xs font-semibold text-black uppercase dark:text-gray-400">Head Office - Surabaya, Indonesia</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">

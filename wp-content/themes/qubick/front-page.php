@@ -3,7 +3,7 @@
 ?>
 <main class="mt-20">
                 <section class="bg-white dark:bg-gray-100 gs_revealX">
-                        <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+                        <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-20">
                             <div class="hidden lg:mt-0 lg:col-span-4 lg:flex ">
                                 <img class="pl-24" src="<?php bloginfo('template_directory');?>/images/Asset 1.png" alt="HeroImage">              
                             </div>

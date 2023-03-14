@@ -19,7 +19,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="gs_revealX">
+                                <div class="gs_revealY">
                                     <h2 class="mb-2 text-xs font-semibold text-black uppercase dark:text-gray-400">Operational Office - Medan, Indonesia</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">
                                         <p class="-mt-4">-</p>

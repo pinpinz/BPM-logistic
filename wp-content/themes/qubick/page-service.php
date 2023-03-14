@@ -120,7 +120,7 @@
                     
                 </section>
 
-                <section class="bg-sky-900 dark:bg-yellow-400">    
+                <section class="bg-sky-900 dark:bg-sky-900">    
                         
                        <div class="grid max-w-screen-xl px-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-4 lg:grid-cols-12 ">
                         <div class="place-self-start lg:col-span-12 ">

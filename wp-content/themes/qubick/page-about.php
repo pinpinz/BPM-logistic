@@ -59,7 +59,7 @@
               </div>
               <div class="hidden  md:col-span-1 lg:block "></div>
               <div class="hidden lg:mt-0 lg:col-span-3 lg:block">
-                   <h1 class="text-2xl font-bold text-yellow-400">.</h1>
+                   <h1 class="text-2xl font-bold text-yellow-400 mb-4">.</h1>
                     <div class="flex py-2">
                     <img class="w-7 h-7" src="<?php bloginfo('template_directory');?>/images/about/Asset9.png" alt="HeroImage">  
                     <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">Decentralized decision-making to deliver superior speed to market</p>
@@ -94,7 +94,7 @@
               </div>
              <div class="hidden  md:col-span-1 lg:block "></div>
               <div class="hidden  md:col-span-3 lg:block">
-                   <h1 class="text-2xl font-bold text-bg-sky-900 mb-4">.</h1>
+                   <h1 class="text-2xl font-bold text-sky-900 mb-4">.</h1>
                     <div class="flex py-2">
                     <img class="w-7 h-7" src="<?php bloginfo('template_directory');?>/images/about/Asset10.png" alt="HeroImage">  
                     <p class=" pl-2 mb-6 text-white lg:mb-8 md:text-sm lg:text-sm dark:text-white font-medium text-justify ">A true partnership approach is essential to achieve continuous improvement. Top-down, long-term commitment strengthens the partnership.</p>
@@ -106,7 +106,7 @@
               </div>
               <div class="hidden  md:col-span-1 lg:block "></div>
               <div class="hidden lg:mt-0 lg:col-span-3 lg:block">
-                   <h1 class="text-2xl font-bold text-bg-sky-900">.</h1>
+                   <h1 class="text-2xl font-bold text-sky-900 mb-4">.</h1>
                     <div class="flex py-2">
                     <img class="w-7 h-7" src="<?php bloginfo('template_directory');?>/images/about/Asset10.png" alt="HeroImage">  
                     <p class=" pl-2 mb-6 text-white lg:mb-8 md:text-sm lg:text-sm dark:text-white font-medium text-justify ">Decentralized decision-making builds a culture of empowerment and results in superior speed-to-market.</p>

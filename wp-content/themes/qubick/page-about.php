@@ -32,6 +32,144 @@
       </div>
     </section>
 
+    <section class="bg-white dark:bg-white gs_revealX">        
+        <div class="grid max-w-screen-xl md:px-28 px-5  mx-auto md:grid-cols-12  ">
+              <div class="  md:col-span-3 ">
+                <h1 class="text-3xl font-bold text-yellow-400 mb-4">MILESTONE</h1>               
+              </div>            
+              
+        </div>
+    </section>
+
+    <section class="ps-timeline-sec max-w-screen-xl md:px-28 px-5 mx-auto hidden md:flex">
+
+            <div class="container">
+                <ol class="ps-timeline">
+                    
+                    <li>
+                        <div class="img-handler-bot flex">
+                            <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 3.png" alt=""/>
+                            <div class="w-full absolute mt-6 ml-36">
+                              <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">1997</h1><h1 class="text-4xl font-bold text-sky-900 ">¹</h1></div>
+                              <h2 class="text-l font-bold text-sky-900">The First Step</h2>
+                            </div>                          
+                            
+                        </div>
+                        <div class="ps-top">
+                            <p></p>
+                        </div>
+                        <span class="ps-sp-bot"></span>
+                    </li>
+                    <li>
+                        <div class="img-handler-top flex">
+                            <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 4.png" alt=""/>
+                            <div class="w-full absolute mt-6 ml-36">
+                              <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2006</h1><h1 class="text-4xl font-bold text-sky-900 ">²</h1></div>
+                              <h2 class="text-l font-bold text-sky-900">Developing</h2>
+                            </div> 
+                            
+                        </div>
+                        <div class="ps-bot">
+                            <p></p>
+                        </div>
+                        <span class="ps-sp-top"></span>
+                    </li>
+                    <li>
+                        <div class="img-handler-bot flex">
+                            <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 5.png" alt=""/>
+                            <div class="w-full absolute mt-6 ml-36">
+                              <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2012</h1><h1 class="text-4xl font-bold text-sky-900 ">³</h1></div>
+                              <h2 class="text-l font-bold text-sky-900">Appreciation</h2>
+                            </div> 
+                        </div>
+                        <div class="ps-top">
+                            <p></p>
+                        </div>
+                        <span class="ps-sp-bot"></span>
+                    </li>
+                    <li>
+                        <div class="img-handler-top flex">
+                            <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 6.png" alt=""/>
+                            <div class="w-full absolute mt-6 ml-36">
+                              <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2019</h1><h1 class="text-4xl font-bold text-sky-900 ">⁴</h1></div>
+                              <h2 class="text-l font-bold text-sky-900">Expansion</h2>
+                            </div> 
+                        </div>
+                        <div class="ps-bot">
+                            <p></p>
+                        </div>
+                        <span class="ps-sp-top"></span>
+                    </li>
+                    <li>
+                        <div class="img-handler-bot flex">
+                            <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 7.png" alt=""/>
+                            <div class="w-full absolute mt-6 ml-36">
+                              <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2020</h1><h1 class="text-4xl font-bold text-sky-900 ">⁵</h1></div>
+                              <h2 class="text-l font-bold text-sky-900">Expansion</h2>
+                            </div>   
+                        </div>
+                        <div class="ps-top">
+                            <p></p>
+                        </div>
+                        <span class="ps-sp-bot"></span>
+                    </li>
+                    <li>
+                        <div class="img-handler-top flex">
+                            <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 8.png" alt=""/>
+                            <div class="w-full absolute mt-6 ml-36">
+                              <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2022</h1><h1 class="text-4xl font-bold text-sky-900 ">⁶</h1></div>
+                              <h2 class="text-l font-bold text-sky-900">New Spirit</h2>
+                            </div> 
+                        </div>
+                        <div class="ps-bot">
+                            <p></p>
+                        </div>
+                        <span class="ps-sp-top"></span>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+<section class="bg-white dark:bg-white gs_revealX md:pl-20">        
+        <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto md:grid-cols-12  ">
+              <div class="  md:col-span-3 lg:block ">
+                
+                <div class="flex py-2">
+                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">¹ PT. Antar Benua Cahaya begins its operation as land transportation and a customs broker.</p>
+                </div>
+                 <div class="flex py-2">
+                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">² New management expanded the business into intermodal logistics and warehousing.</p>
+                </div>
+              </div>
+             <div class="  md:col-span-1 lg:block "></div>
+              <div class="  md:col-span-3 lg:block">
+                  
+                    <div class="flex py-2">
+                    
+                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">³ Achieved Customer Award from PT. Terminal Peti Kemas Surabaya.</p>
+                    </div>
+                    <div class="flex py-2">
+                   
+                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">⁴ PT. Benua Cahaya Mandiri begins it’s operation as International Freight Forwarding with two offices in Surabaya and Medan, Indonesia</p>
+                    </div>
+              </div>
+              <div class="  md:col-span-1 lg:block "></div>
+              <div class=" lg:mt-0 lg:col-span-3 lg:block">
+               
+                    <div class="flex py-2">
+                   
+                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">⁵ Extend the business coverage in Hanoi, Vietnam.</p>
+                    </div>
+                    <div class="flex py-2">
+                   
+                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">⁶ New logo with new achievement.</p>
+                    </div>
+              </div>
+              <div class="  md:col-span-1 lg:block "></div>
+              
+        </div>
+    </section>
+
     <section class="bg-yellow-400 dark:bg-yellow-400 gs_revealX">        
         <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto md:grid-cols-12  ">
               <div class="  md:col-span-3 lg:block ">
@@ -116,6 +254,7 @@
         </div>
     </section>
 
+    
    
 <?php 
     include 'footer.php';

@@ -105,7 +105,7 @@
                     <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 pt-10 md:grid-cols-12 grid-cols-6">
                            
                             <div class="lg:mr-auto place-self-center col-span-6 md:col-span-7 md:px-24 px-4">
-                                <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 ">Air Freight</h1>
+                                <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 ">AIR FREIGHT</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 text-sm  font-normal">
                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta est sit amet condimentum ullamcorper. Pellentesque viverra pretium odio, fringilla aliquam elit bibendum in. Nulla pretium dolor id enim molestie vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus metus ut cursus eleifend. Praesent justo purus, tincidunt ut sem ut, accumsan cursus sem.
                                 </p>

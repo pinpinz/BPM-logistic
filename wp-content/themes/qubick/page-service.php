@@ -77,7 +77,7 @@
 
                 <section class="bg-yellow-400 dark:bg-yellow-400 gs_revealX">    
                         
-                    <div class="grid max-w-screen-xl px-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-4 lg:grid-cols-12 ">
+                    <div class="grid max-w-screen-xl px-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-4 pt-10 lg:grid-cols-12 ">
                         <div class="place-self-start lg:col-span-12 ">
                             <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-white ">OUR SERVICE</h1>
                             <h1 class="max-w-2xl mb-4 text-gray-700 text-sm font-normal leading-none tracking-tight">We deliver all of ypur logistic needs and tailor our services and solution per your <br> requirements. We are experienced in various industries and work to cater</h1>

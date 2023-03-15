@@ -30,6 +30,7 @@
                     wp_localize_script( 'bcm-all', 'object_page', array( 'template_url' => get_stylesheet_directory_uri() ) ); // get url theme in js
 
                     wp_enqueue_script('bcm-tailwind','https://cdn.tailwindcss.com', array(), '', false);	
+                     wp_enqueue_script('bcm-ionicons','https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js', array(), '', false);	
                     // wp_enqueue_script('bcm-bootstrap-js', get_template_directory_uri().'/inc/cdn/bootstrap/js/bootstrap.bundle.min.js', array(), '', true);	
                     wp_enqueue_script('bcm-ajax', get_template_directory_uri().'/inc/cdn/ajax/jquery.min.js', array(), '', false);
                     wp_enqueue_script('bcm-jquery', get_template_directory_uri().'/inc/cdn/jquery/jquery-3.6.0.js', array(), '', false);	

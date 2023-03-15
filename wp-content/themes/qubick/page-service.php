@@ -85,10 +85,10 @@
                     </div>
 
                     <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 lg:pt-10 md:grid-cols-12 grid-cols-6">
-                            <div class="col-span-2 md:col-span-4 flex gs_revealY">
+                            <div class="hidden md:flex col-span-2 md:col-span-4 flex gs_revealY">
                                 <img class="lg:pl-24 py-20 md:py-0" src="<?php bloginfo('template_directory');?>/images/service/Asset 9.png" alt="HeroImage">              
                             </div>
-                            <div class="lg:mr-auto place-self-center col-span-4 md:col-span-7 lg:px-24 ">
+                            <div class="lg:mr-auto place-self-center col-span-6 md:col-span-7 md:px-24 px-4">
                                 <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-white ">SEA FREIGHT</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 text-sm  font-normal">
                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta est sit amet condimentum ullamcorper. Pellentesque viverra pretium odio, fringilla aliquam elit bibendum in. Nulla pretium dolor id enim molestie vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus metus ut cursus eleifend. Praesent justo purus, tincidunt ut sem ut, accumsan cursus sem.
@@ -102,16 +102,16 @@
 
                 <section class="bg-white dark:bg-white gs_revealX">    
                         
-                    <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 lg:pt-10 md:grid-cols-12 grid-cols-6">
+                    <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 pt-10 md:grid-cols-12 grid-cols-6">
                            
-                            <div class="lg:mr-auto place-self-center col-span-4 md:col-span-7 lg:px-24">
+                            <div class="lg:mr-auto place-self-center col-span-6 md:col-span-7 md:px-24 px-4">
                                 <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 ">Air Freight</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 text-sm  font-normal">
                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta est sit amet condimentum ullamcorper. Pellentesque viverra pretium odio, fringilla aliquam elit bibendum in. Nulla pretium dolor id enim molestie vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus metus ut cursus eleifend. Praesent justo purus, tincidunt ut sem ut, accumsan cursus sem.
                                 </p>
                                 
                             </div>
-                             <div class="col-span-2 md:col-span-4 flex gs_revealY">
+                             <div class="hidden md:flex col-span-2 md:col-span-4 flex gs_revealY">
                                 <img class="lg:pl-24 py-20 md:py-0" src="<?php bloginfo('template_directory');?>/images/service/Asset 10.png" alt="HeroImage">              
                             </div>
                                         
@@ -128,11 +128,11 @@
                         </div>
                     </div>
 
-                   <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 lg:pt-10 md:grid-cols-12 grid-cols-6">
-                            <div class="col-span-2 md:col-span-4 flex gs_revealY">
+                   <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 pt-10 md:grid-cols-12 grid-cols-6">
+                            <div class=" hidden md:flex  col-span-2 md:col-span-6 flex gs_revealY">
                                 <img class="lg:pl-24 py-20 md:py-0" src="<?php bloginfo('template_directory');?>/images/service/Asset 9.png" alt="HeroImage">              
                             </div>
-                            <div class="lg:mr-auto place-self-center col-span-4 md:col-span-7 lg:px-24 ">
+                            <div class="lg:mr-auto place-self-center col-span-6 md:col-span-7 md:px-24 px-4">
                                 <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 ">CROSS COUNTRY BOOKING</h1>
                                 <p class="max-w-2xl mb-6 text-white lg:mb-8 text-sm  font-normal">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta est sit amet condimentum ullamcorper. Pellentesque viverra pretium odio, fringilla aliquam elit bibendum in. Nulla pretium dolor id enim molestie vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus metus ut cursus eleifend. Praesent justo purus, tincidunt ut sem ut, accumsan cursus sem.
@@ -147,16 +147,16 @@
 
                 <section class="bg-white dark:bg-white gs_revealX">    
                         
-                    <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 lg:pt-10 md:grid-cols-12 grid-cols-6">
+                    <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 pt-10 md:grid-cols-12 grid-cols-6">
                            
-                        <div class="lg:mr-auto place-self-center col-span-4 md:col-span-7 lg:px-24 ">
+                         <div class="lg:mr-auto place-self-center col-span-6 md:col-span-7 md:px-24 px-4">
                                 <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-sky-900 ">INTERMODAL & WAREHOUSING</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 text-sm  font-normal">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta est sit amet condimentum ullamcorper. Pellentesque viverra pretium odio, fringilla aliquam elit bibendum in. Nulla pretium dolor id enim molestie vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus metus ut cursus eleifend. Praesent justo purus, tincidunt ut sem ut, accumsan cursus sem.
                                 </p>
                                 
                             </div>
-                            <div class="col-span-2 md:col-span-4 flex gs_revealY">
+                            <div class=" hidden md:flex col-span-2 md:col-span-4 flex gs_revealY">
                                 <img class="lg:pl-24 py-20 md:py-0" src="<?php bloginfo('template_directory');?>/images/service/Asset 12.png" alt="HeroImage">              
                             </div>
                                         

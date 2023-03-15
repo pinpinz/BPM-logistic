@@ -33,7 +33,7 @@
     </section>
 
     <section class="bg-yellow-400 dark:bg-yellow-400 gs_revealX">        
-        <div class="grid max-w-screen-xl px-28 py-12 mx-auto md:grid-cols-12  ">
+        <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto md:grid-cols-12  ">
               <div class="  md:col-span-3 lg:block ">
                 <h1 class="text-2xl font-bold text-white mb-4">VISION</h1>
                 <div class="flex py-2">
@@ -70,7 +70,7 @@
     </section>
 
     <section class="bg-sky-900 dark:bg-sky-900 gs_revealX">        
-        <div class="grid max-w-screen-xl px-28 py-12 mx-auto  md:grid-cols-12  ">
+        <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto  md:grid-cols-12  ">
             
               <div class="  md:col-span-3 lg:block ">
                 <h1 class="text-2xl font-bold text-yellow-400 mb-4">CORE VALUES</h1>

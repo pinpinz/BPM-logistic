@@ -66,8 +66,6 @@
         })
     });
 
-
-
 </script>
                         <div class="bg-gray-300 dark:bg-gray-300 lg:px-60">
                             <div class="grid grid-cols-2 gap-8 px-6 py-4 md:grid-cols-4">

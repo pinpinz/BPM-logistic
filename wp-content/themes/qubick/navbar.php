@@ -34,7 +34,7 @@
             </a>
 
             <span class="text-3xl cursor-pointer mx-2 md:hidden block mt-3 ">
-                <ion-icon name="menu" class="bg-sky-800" onclick="Menu(this)"></ion-icon>
+                <ion-icon name="menu" class="bg-sky-800" onclick="Menu(this)" style="color: white;"></ion-icon>
             </span>
 
         </div>

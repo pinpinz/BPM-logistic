@@ -57,7 +57,7 @@
 
                     <section class="bg-yellow-400 dark:bg-yellow-400">    
                         
-                    <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 ">
+                    <div class="grid max-w-screen-xl px-4 md:pb-8 pt-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 ">
                         <div class="place-self-center lg:col-span-12 ">
                             <h1 class="max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-4xl xl:text-4xl text-white text-center ">A WIDE RANGE OF TAILORED SERVICES</h1>
                         </div>

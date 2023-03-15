@@ -14,6 +14,9 @@
                class="  flex 
                         items-center 
                         md:pl-52
+                        my-2
+                        md:my-0
+                        
                         pl-12"
                         
             >
@@ -32,8 +35,13 @@
             </a>
 
             <button type="button" class="md:hidden navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                  <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+
 
             <div id="navbarCollapse"
                 class="

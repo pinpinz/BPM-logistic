@@ -2,12 +2,12 @@
     include 'header.php';
 ?>
 <main class="mt-20">
-                <section class="bg-white dark:bg-gray-100 gs_revealX">
+                <section class="bg-white dark:bg-gray-100 ">
                         <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-20">
                             <div class="hidden lg:mt-0 lg:col-span-4 lg:flex ">
                                 <img class="pl-24" src="<?php bloginfo('template_directory');?>/images/Asset 1.png" alt="HeroImage">              
                             </div>
-                            <div class="lg:mr-auto place-self-center lg:col-span-7 lg:px-24 ">
+                            <div class="lg:mr-auto place-self-center lg:col-span-7 lg:px-24 gs_revealX">
                                 <h1 class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-4xl xl:text-4xl text-yellow-300 ">CONNECTING YOU, <br>CONNECTING YOUR BUSINESS</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-bold">"Creating a network to assist you in reachingyour potential buyers and growing your business." Some of our cliet have gained the benefit of greater exposure in the region, getting new prospects, and even expanding their business sector.</p>
                                 <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
@@ -21,7 +21,7 @@
                         </div>
                     </section>
 
-                    <section class="bg-white dark:bg-gray-100 gs_revealY">
+                    <section class="bg-white dark:bg-gray-100 ">
                     <div class="mt-0 flex lg:h-[32rem] h-[10rem] bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-top bg-cover "></div>
                     </section>
 

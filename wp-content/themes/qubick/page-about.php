@@ -3,7 +3,7 @@
 ?>
     <section class="bg-white dark:bg-gray-100">
        <div class="grid max-w-screen-xl px-4 md:pt-20 pb-8 mx-auto md:gap-8 gap-1 py-16 grid-cols-12">
-          <div class="hidden mt-0 col-span-4 md:block md:pl-24 gs_revealY">
+          <div class="hidden mt-0 col-span-4 md:block md:pl-24 ">
                   <img class="max-w-l mb-10" src="<?php bloginfo('template_directory');?>/images/about/Asset12.png" alt="logo">
            
                   <img class="" src="<?php bloginfo('template_directory');?>/images/about/Asset 6.png" alt="HeroImage">  
@@ -32,7 +32,7 @@
       </div>
     </section>
 
-    <section class="bg-white dark:bg-white gs_revealX">        
+    <section class="bg-white dark:bg-white ">        
         <div class="grid max-w-screen-xl md:px-28 px-5  mx-auto md:grid-cols-12  ">
               <div class="  md:col-span-3 ">
                 <h1 class="text-3xl font-bold text-yellow-400 mb-4">MILESTONE</h1>               

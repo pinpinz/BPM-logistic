@@ -5,13 +5,13 @@
 <main class="mt-20">
                 <section class="bg-white dark:bg-gray-100">  
                         
-                    <div class="grid max-w-screen-xl px-8 md:px-0 pb-4 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 gs_revealX">
+                    <div class="grid max-w-screen-xl px-8 md:px-0 pb-4 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 ">
                         <div class="place-self-left lg:col-span-12 ">
                             <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 ">INDUSTRI</h1>
                             <p class="max-w-2xl mb-4 text-sm font-normal leading-none tracking-tight text-gray-700 ">We have been working from small to enterprise businesses and have experience in <br>a number of industries, ranging from several industries as follow:</p>
                         </div>
                     </div>
-                    <div class="hidden lg:flex grid w-11/12 md:w-5/6 xl:w-2/3 mx-auto gap-14 py-8 grid-cols-7 mb-10 gs_revealY">
+                    <div class="hidden lg:flex grid w-11/12 md:w-5/6 xl:w-2/3 mx-auto gap-14 py-8 grid-cols-7 mb-10 ">
                       
                         <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-yellow-400 hover:w-2/3">
                             <div class="l2 rounded-full border-slate-100 bg-slate-100 place-self-center drop-shadow-2xl py-2 px-2">

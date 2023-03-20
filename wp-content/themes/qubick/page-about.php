@@ -1,6 +1,7 @@
 <?php 
     include 'header.php';
 ?>
+<main class="mt-10">
     <section class="bg-white -mt-10 mb-16">
        <div class="grid max-w-screen-xl px-4 md:pt-20 pb-8 mx-auto md:gap-2 gap-1 py-16 grid-cols-12">
           <div class="hidden mt-0 col-span-4 md:block md:pl-24 gs_revealY">
@@ -32,7 +33,7 @@
       </div>
     </section>
 
-    <section class="bg-white dark:bg-white gs_revealX">        
+    <section class="bg-white gs_revealX">        
         <div class="grid max-w-screen-xl md:px-28 px-5  mx-auto md:grid-cols-12  ">
               <div class="  md:col-span-3 ">
                 <h1 class="text-3xl font-bold text-yellow-400 mb-4">MILESTONE</h1>               
@@ -41,7 +42,7 @@
         </div>
     </section>
 
-    <section class="ps-timeline-sec max-w-screen-xl md:px-28 px-5 mx-auto hidden md:flex" style="background-color:white;">
+    <section class="ps-timeline-sec max-w-screen-xl md:px-28 px-5 mx-auto hidden md:flex bg-white" >
 
             <div class="container">
                 <ol class="ps-timeline">
@@ -130,7 +131,7 @@
             </div>
         </section>
 
-<section class="bg-white dark:bg-white gs_revealX md:pl-20">        
+<section class="bg-white gs_revealX md:pl-20">        
         <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto md:grid-cols-12  ">
               <div class="  md:col-span-3 lg:block ">
                 
@@ -170,7 +171,7 @@
         </div>
     </section>
 
-    <section class="bg-yellow-400 dark:bg-yellow-400">        
+    <section class="bg-yellow-400 ">        
         <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto md:grid-cols-12  ">
               <div class="  md:col-span-3 lg:block ">
                 <h1 class="text-2xl font-bold text-white mb-4">VISION</h1>
@@ -207,7 +208,7 @@
         </div>
     </section>
 
-    <section style="background-color:#004179">        
+    <section class="bg-[#004179]">        
         <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto  md:grid-cols-12  ">
             
               <div class="  md:col-span-3 lg:block ">
@@ -255,7 +256,7 @@
     </section>
 
     
-   
+   </main>
 <?php 
     include 'footer.php';
 ?>

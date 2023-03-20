@@ -69,7 +69,7 @@ Tags: custom-background
 
     .ps-timeline-sec .container ol.ps-timeline {
         margin: 130px 0 !important;
-        border-left: 2px solid #348e80;
+        border-left: 2px solid #004179;
         padding-left: 0 !important;
         padding-top: 120px !important;
         border-top: 0 !important;
@@ -177,7 +177,7 @@ Tags: custom-background
 .ps-timeline-sec .container ol.ps-timeline {
     margin: 180px 0;
     padding: 0;
-    border-top: 2px solid #348e80;
+    border-top: 2px solid #004179;
     list-style: none;
 }
 
@@ -205,10 +205,10 @@ Tags: custom-background
 
 .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
     content: "";
-    color: #348e80;
+    color: #004179;
     width: 2px;
     height: 50px;
-    background: #348e80;
+    background: #004179;
     position: absolute;
     top: -25px;
     left: 50%;
@@ -216,10 +216,10 @@ Tags: custom-background
 
 .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
     content: "";
-    color: #348e80;
+    color: #004179;
     width: 2px;
     height: 50px;
-    background: #348e80;
+    background: #004179;
     position: absolute;
     bottom: -25px;
     left: 50%;

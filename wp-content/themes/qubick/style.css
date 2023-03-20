@@ -44,6 +44,7 @@ Tags: custom-background
     position: relative;
 }
 
+
 @media screen and (max-width: 767px) {
     /* .ps-timeline-sec .container ol:before {
         background: #348e80;

@@ -11,8 +11,8 @@
                     <div class="grid max-w-screen-xl px-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-4 lg:grid-cols-12 flex">
                         <div class="place-self-start col-span-6 md:mt-12 ">
                             <div class="gs_revealY">
-                                    <h2 class="mb-2 text-xs font-semibold text-black uppercase dark:text-gray-400">Head Office - Surabaya, Indonesia</h2>
-                                    <ul class="text-gray-500 dark:text-gray-400">
+                                    <h2 class="mb-2 text-xs font-semibold text-black dark:text-gray-400">Head Office - Surabaya, Indonesia</h2>
+                                    <ul class="text-gray-500">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
                                             <a href="#" class="flex justify-start text-black hover:underline text-xs ">Jl. Kalianget No.15B Perak Utara, <br>Surabaya, Jawa Timur 60615 <br>Ph.+62 31 328 7604 <br>+62 31 328 5278</a>
@@ -20,8 +20,8 @@
                                     </ul>
                                 </div>
                                 <div class="gs_revealY">
-                                    <h2 class="mb-2 text-xs font-semibold text-black uppercase dark:text-gray-400">Operational Office - Medan, Indonesia</h2>
-                                    <ul class="text-gray-500 dark:text-gray-400">
+                                    <h2 class="mb-2 text-xs font-semibold text-black dark:text-gray-400">Operational Office - Medan, Indonesia</h2>
+                                    <ul class="text-gray-500">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
                                             <a href="#" class="flex justify-start text-black hover:underline text-xs ">Graha Harmoni 5th Floor, <br>Jl Gaharu no.28, Kec. Medan Timur, <br>Medan Sumatera Utara 20235 <br>Ph.+62 61 4141 755</a>
@@ -29,8 +29,8 @@
                                     </ul>
                                 </div>
                                  <div class="gs_revealY">
-                                    <h2 class="mb-2 text-xs font-semibold text-black uppercase dark:text-gray-400">Operational Office - Ha Noi, Vietnam</h2>
-                                    <ul class="text-gray-500 dark:text-gray-400">
+                                    <h2 class="mb-2 text-xs font-semibold text-black dark:text-gray-400">Operational Office - Ha Noi, Vietnam</h2>
+                                    <ul class="text-gray-500">
                                         <p class="-mt-4">-</p>
                                         <li class="mb-8">
                                             <a href="#" class="flex justify-start text-black hover:underline text-xs ">18444 Due Giang Street, Long Beach District, <br>Hanoi, Vietnam <br>Ph.+84 395 77 11351</a>
@@ -74,7 +74,7 @@
                                                 <a
                                                 href="#!"
                                                 type="button"
-                                                class="m-1 h-9 w-9 mr-4 rounded-full border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:bg-black hover:bg-gray-400 focus:outline-none focus:ring-0"
+                                                class="m-1 h-9 w-9 mr-4 rounded-full border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:opacity-50 hover:opacity-50 focus:outline-none focus:ring-0"
                                                 data-te-ripple-init
                                                 data-te-ripple-color="light">
                                                 <img class="w-40" src="<?php bloginfo('template_directory');?>/images/contact/Asset 1.png" alt="wa">
@@ -83,7 +83,7 @@
                                                 <a
                                                 href="#!"
                                                 type="button"
-                                                class="m-1 h-9 w-9 mr-4 border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:bg-black hover:bg-gray-400 focus:outline-none focus:ring-0"
+                                                class="m-1 h-9 w-9 mr-4 border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:opacity-50 hover:opacity-50 focus:outline-none focus:ring-0"
                                                 data-te-ripple-init
                                                 data-te-ripple-color="light">
                                                 <img class="w-40" src="<?php bloginfo('template_directory');?>/images/contact/Asset 2.png" alt="wa">
@@ -92,7 +92,7 @@
                                                 <a
                                                 href="#!"
                                                 type="button"
-                                                class="m-1 h-9 w-9 mr-4 border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:bg-black hover:bg-gray-400 focus:outline-none focus:ring-0"
+                                                class="m-1 h-9 w-9 mr-4 border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:opacity-50 hover:opacity-50 focus:outline-none focus:ring-0"
                                                 data-te-ripple-init
                                                 data-te-ripple-color="light">
                                                 <img class="w-40" src="<?php bloginfo('template_directory');?>/images/contact/Asset 3.png" alt="wa">

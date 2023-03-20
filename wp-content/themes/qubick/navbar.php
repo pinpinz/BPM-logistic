@@ -5,19 +5,18 @@
         z-[10]
     "
 >
-    <nav class="bg-[#004179] shadow md:flex md:items-center md:justify-between">
+    <nav class="shadow md:flex md:items-center md:justify-between" style="background-color:#004179;">
         <div class="
                 flex justify-between align-center
             "
         >
-            <a href="#" 
+            <a href="../../bp-bcm/" 
                class="  flex 
                         items-center 
                         md:pl-52
                         my-2
                         md:mt-4                        
-                        pl-12"
-                        
+                        pl-12"     
             >
                  <?php
                     // $custom_logo_id = get_theme_mod( 'custom_logo' );
@@ -56,8 +55,7 @@
                                                 z-[-1] 
                                                 md:z-auto 
                                                 md:static 
-                                                absolute 
-                                                bg-[#004179] 
+                                                absolute
                                                 w-full 
                                                 left-0 
                                                 md:w-auto 
@@ -105,7 +103,7 @@
                                                 border 
                                                 border-gray-100 
                                                 rounded-lg 
-                                                bg-[#004179] 
+                                                bg-sky-900 
                                                 md:flex-row 
                                                 md:space-x-8 
                                                 

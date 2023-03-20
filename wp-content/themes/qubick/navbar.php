@@ -5,7 +5,7 @@
         z-[10]
     "
 >
-    <nav class="bg-sky-900 shadow md:flex md:items-center md:justify-between">
+    <nav class="bg-[#004179] shadow md:flex md:items-center md:justify-between">
         <div class="
                 flex justify-between align-center
             "
@@ -57,7 +57,7 @@
                                                 md:z-auto 
                                                 md:static 
                                                 absolute 
-                                                bg-sky-900 
+                                                bg-[#004179] 
                                                 w-full 
                                                 left-0 
                                                 md:w-auto 
@@ -105,7 +105,7 @@
                                                 border 
                                                 border-gray-100 
                                                 rounded-lg 
-                                                bg-sky-900 
+                                                bg-[#004179] 
                                                 md:flex-row 
                                                 md:space-x-8 
                                                 

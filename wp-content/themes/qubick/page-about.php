@@ -17,12 +17,12 @@
                     <br><br>Our people, from top management to staff level, are hands-on in building this culture to grow the value and exposure of our clients and partners.
                 <br><br>Some of our clients have gained the benefits of greater exposure in the region, getting new prospects, and even expanding their business sectors.</p>
               <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                  <a href="#" class="items-center justify-center md:w-full px-5 py-3 text-sm bg-white font-medium text-center text-gray-900 hover:text-white md:border-2 border-gray-200 rounded-3xl sm:w-auto md:hover:bg-sky-900 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-sky-900 dark:focus:ring-gray-800">
+                  <a href="#" class="items-center justify-center md:w-full px-5 py-3 text-sm bg-white font-medium text-center text-gray-900 hover:text-white md:border-2 border-gray-200 rounded-3xl sm:w-auto md:hover:bg-[#004179] focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-[#004179] dark:focus:ring-gray-800">
                   <img class="md:w-48" src="<?php bloginfo('template_directory');?>/images/about/Asset 1.png" alt="logo">
                   <br>
                   <h1 class="tracking-widest md:text-left text-center max-w-2xl mb-4 text-xl font-bold leading-none tracking-tight  text-yellow-300 ">BUILD<br>STRONG<br>DISTRIBUTION<br>NETWORK</h1>  
                 </a>
-                  <a href="#" class="items-center justify-center md:w-full px-5 py-3 text-sm bg-white font-medium text-center text-gray-900 hover:text-white md:border-2 border-gray-200 rounded-3xl sm:w-auto md:hover:bg-sky-900 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-sky-900 dark:focus:ring-gray-800">
+                  <a href="#" class="items-center justify-center md:w-full px-5 py-3 text-sm bg-white font-medium text-center text-gray-900 hover:text-white md:border-2 border-gray-200 rounded-3xl sm:w-auto md:hover:bg-[#004179] focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-[#004179] dark:focus:ring-gray-800">
                   <img class="md:w-48" src="<?php bloginfo('template_directory');?>/images/about/Asset 2.png" alt="logo">
                   <br>
                   <h1 class="tracking-widest md:text-left text-center max-w-2xl mb-4 text-xl font-bold leading-none tracking-tight text-yellow-300 ">BUSINESS<br>TO BUSINESS<br>SERVICE<br></h1>    
@@ -170,8 +170,8 @@
         </div>
     </section>
 
-    <section class="bg-yellow-400 dark:bg-yellow-400 gs_revealX">        
-        <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto md:grid-cols-12  ">
+    <section class="bg-yellow-400 dark:bg-yellow-400 ">        
+        <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto md:grid-cols-12  gs_revealX">
               <div class="  md:col-span-3 lg:block ">
                 <h1 class="text-2xl font-bold text-white mb-4">VISION</h1>
                 <div class="flex py-2">
@@ -207,8 +207,8 @@
         </div>
     </section>
 
-    <section class="bg-sky-900 dark:bg-sky-900 gs_revealX">        
-        <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto  md:grid-cols-12  ">
+    <section class="bg-[#004179] dark:bg-[#004179] ">        
+        <div class="grid max-w-screen-xl md:px-28 px-5 py-12 mx-auto  md:grid-cols-12  gs_revealX">
             
               <div class="  md:col-span-3 lg:block ">
                 <h1 class="text-2xl font-bold text-yellow-400 mb-4">CORE VALUES</h1>

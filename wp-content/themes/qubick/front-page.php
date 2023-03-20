@@ -11,7 +11,7 @@
                                 <h1 class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-4xl xl:text-4xl text-yellow-300 ">CONNECTING YOU, <br>CONNECTING YOUR BUSINESS</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-bold">"Creating a network to assist you in reachingyour potential buyers and growing your business." Some of our cliet have gained the benefit of greater exposure in the region, getting new prospects, and even expanding their business sector.</p>
                                 <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-yellow-400 font-medium text-center text-gray-900 hover:text-white border border-gray-200 rounded-lg sm:w-auto hover:bg-sky-900 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-sky-900 dark:focus:ring-gray-800">
+                                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-yellow-400 font-medium text-center text-gray-900 hover:text-white border border-gray-200 rounded-lg sm:w-auto hover:bg-[#004179] focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-[#004179] dark:focus:ring-gray-800">
                                         Request for quote
                                     </a> 
                                     
@@ -45,7 +45,7 @@
                                 <h1 class="max-w-2xl mb-4 text-2xl font-bold leading-none tracking-tight md:text-4xl xl:text-4xl text-yellow-300 ">2019</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-bold">The establishment od subsidiary PT.Benua Cahaya Mandiri <br>at Indonesia & Vietname.</p>
                                 <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-yellow-400 font-medium text-center text-gray-900 hover:text-white border border-gray-200 rounded-lg sm:w-auto hover:bg-sky-900 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-sky-900 dark:focus:ring-gray-800">
+                                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-yellow-400 font-medium text-center text-gray-900 hover:text-white border border-gray-200 rounded-lg sm:w-auto hover:bg-[#004179] focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-[#004179] dark:focus:ring-gray-800">
                                         More
                                     </a> 
                                     

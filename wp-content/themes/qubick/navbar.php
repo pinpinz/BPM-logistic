@@ -5,7 +5,7 @@
         z-[10]
     "
 >
-    <nav class="shadow md:flex md:items-center md:justify-between" style="background-color:#004179;">
+    <nav class="shadow md:flex md:items-center md:justify-between bg-[#004179]" >
         <div class="
                 flex justify-between align-center
             "
@@ -68,6 +68,7 @@
                                                 top-[-400px] 
                                                 transition-all 
                                                 ease-in 
+                                                bg-[#004179]
                                                 duration-500', // shoulde be for <ul></ul> class
                             'add_li_class' => ' mx-6
                                                 my-5

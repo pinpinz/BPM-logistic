@@ -1,7 +1,7 @@
 <?php 
     include 'header.php';
 ?>
-<main class="mt-10">
+<main class="mt-20 md:mt-10">
 
 
 
@@ -26,7 +26,7 @@
                     </section>
 
                     <section class="bg-white ">
-                    <div class="mt-0 flex lg:h-[32rem] h-[10rem] bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-fixed bg-cover "></div>
+                    <div class="mt-0 flex h-screen bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-fixed bg-cover bg-center"></div>
                     </section>
 
                     <section class="bg-white dark:bg-white">

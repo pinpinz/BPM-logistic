@@ -28,6 +28,22 @@
         body,h1,h2,p {
         font-family: 'Brandon';
         }
+
+        .zoom-out {
+  animation: zoom-out 1s;
+}
+
+@keyframes zoom-out {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+
     </style>
     
 </head>

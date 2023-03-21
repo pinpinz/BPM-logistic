@@ -2,8 +2,12 @@
     include 'header.php';
 ?>
 <main class="mt-10">
-                <section class="bg-white">
-                        <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-20">
+
+
+
+
+                <section class="bg-white ">
+                        <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-20 ">
                             <div class="hidden lg:mt-0 lg:col-span-4 lg:flex ">
                                 <img class="pl-24" src="<?php bloginfo('template_directory');?>/images/Asset 1.png" alt="HeroImage">              
                             </div>
@@ -22,7 +26,7 @@
                     </section>
 
                     <section class="bg-white ">
-                    <div class="mt-0 flex lg:h-[32rem] h-[10rem] bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-top bg-cover "></div>
+                    <div class="mt-0 flex lg:h-[32rem] h-[10rem] bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-fixed bg-cover "></div>
                     </section>
 
                     <section class="bg-white dark:bg-white">

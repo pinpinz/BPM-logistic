@@ -1,7 +1,7 @@
 <header id="header-menu" role="navigation" 
     class="
         fixed top-0 w-full 
-        md:px-10 py-0
+        md:px-0 py-0
         z-[10]
     "
 >
@@ -73,7 +73,7 @@
                                                 my-5
                                                 md:my-0
                                                 text-white 
-                                                hover:text-yellow-400  
+                                                hover:text-[#fdce28]  
                                                 duration-500                                          
                                             ', // shoulde be for <ul> -> <li></li> class
                             'add_link_class' => '
@@ -118,12 +118,12 @@
                                                 pr-4 
                                                 text-white 
                                                 rounded 
-                                                hover:text-yellow-400 
+                                                hover:text-[#fdce28] 
                                                 md:hover:bg-transparent 
                                                 md:border-0 
-                                                md:hover:text-yellow-400 
+                                                md:hover:text-[#fdce28] 
                                                 dark:text-gray-400 
-                                                md:dark:hover:text-yellow-400 
+                                                md:dark:hover:text-[#fdce28] 
                                                 dark:hover:bg-gray-700 
-                                                dark:hover:text-yellow-400 
+                                                dark:hover:text-[#fdce28] 
                                                 md:dark:hover:bg-transparent -->

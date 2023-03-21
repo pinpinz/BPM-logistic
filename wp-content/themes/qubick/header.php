@@ -36,6 +36,6 @@
         <?php include 'navbar.php';?>
     
 
-        <div class="site-content relative px-10 " style="max-width: 100vw; overflow-x: hidden">
+        <div class="site-content relative px-0 " style="max-width: 100vw; overflow-x: hidden">
 
         

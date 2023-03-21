@@ -42,7 +42,7 @@
                             <div class="container gs_revealX">
                                
                                             <div>
-                                                <h1 class = "max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-yellow-400 ">Get In Touch</h1>
+                                                <h1 class = "max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-[#fdce28] ">Get In Touch</h1>
                                                 <p>If you have any question about us or how we can support yourr business, please contact us directly by selecting from one of the below categories in the most relevant to your inquiry and fill our short feedback form.</p>
                                             </div>
                                             <form name="sentMessage" id="contactForm" novalidate>
@@ -65,7 +65,7 @@
                                                     <p class="help-block text-danger"></p>
                                                 </div>
                                                 <div></div>
-                                                <button class="bg-yellow-400 rounded-lg p-3" type="submit" class="btn btn-custom btn-lg">Send Message</button>
+                                                <button class="bg-[#fdce28] rounded-lg p-3" type="submit" class="btn btn-custom btn-lg">Send Message</button>
                                             </form>
                                       
                                

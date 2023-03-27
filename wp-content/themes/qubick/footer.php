@@ -67,17 +67,17 @@
     });
 
 </script>
-        <body>
+        
                         <div class="lg:px-60" style="background-color:#F2F2F2;">
-                            <div class="grid grid-cols-2 gap-8 px-6 py-4 md:grid-cols-4">
+                            <div class="grid grid-cols-1 gap-8 px-6 py-4 md:grid-cols-4">
                             <img class="w-40" src="<?php bloginfo('template_directory');?>/images/AssetLogo12.png" alt="logo">
                             </div>
-                            <div class="grid grid-cols-2 gap-8 px-6 py-2 md:grid-cols-4">
+                            <div class="grid grid-cols-1 gap-8 px-6 py-2 md:grid-cols-4">
                                 <div>
                                     <h2 class="mb-2 text-xs font-medium text-black">Head Office - Surabaya, Indonesia</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">
-                                        <p class="-mt-4">-</p>
-                                        <li class="mb-8">
+                                        <p class="">-</p>
+                                        <li class="md:mb-8">
                                             <a href="#" class="flex justify-start text-black hover:underline text-xs ">Jl. Kalianget No.15B Perak Utara, <br>Surabaya, Jawa Timur 60615 <br>Ph.+62333287604</a>
                                         </li>
                                     </ul>
@@ -85,8 +85,8 @@
                                 <div>
                                     <h2 class="mb-2 text-xs font-medium text-black">Operational Office - Medan, Indonesia</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">
-                                        <p class="-mt-4">-</p>
-                                        <li class="mb-8">
+                                        <p class=""></p>
+                                        <li class="md:mb-8">
                                             <a href="#" class="flex justify-start text-black hover:underline text-xs ">Graha Harmoni 5th Floor, <br>Jl Gaharu no.28, Medan Sumatera Utara 20235 <br>Ph.+62614141755</a>
                                         </li>
                                     </ul>
@@ -94,8 +94,8 @@
                                 <div>
                                     <h2 class="mb-2 text-xs font-medium text-black">Operational Office - Ha Noi, Vietnam</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">
-                                        <p class="-mt-4">-</p>
-                                        <li class="mb-8">
+                                        <p class="">-</p>
+                                        <li class="md:mb-8">
                                             <a href="#" class="flex justify-start text-black hover:underline text-xs ">18444 Due Giang Street, <br>Long Beach District, Hanoi, Vietnam <br>Ph.+843957711954</a>
                                         </li>
                                     </ul>

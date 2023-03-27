@@ -1,15 +1,15 @@
 <?php 
     include 'header.php';
 ?>
-<main class="mt-20 md:mt-10">
+<main class="mt-10">
 
 
 
 
                 <section class="bg-white ">
-                        <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-20 ">
-                            <div class="hidden lg:mt-0 lg:col-span-4 lg:flex ">
-                                <img class="pl-24" src="<?php bloginfo('template_directory');?>/images/Asset 1.png" alt="HeroImage">              
+                        <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 mb-10 md:mb-0 ">
+                            <div class="block md:py-32 lg:col-span-4 lg:flex ">
+                                <img class="md:pl-28 px-10 py-10 md:py-0 md:px-0" src="<?php bloginfo('template_directory');?>/images/Asset 1.png" alt="HeroImage">              
                             </div>
                             <div class="lg:mr-auto place-self-center lg:col-span-7 lg:px-24 gs_revealX">
                                 <h1 class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-4xl xl:text-4xl text-[#fdce28] ">CONNECTING YOU, <br>CONNECTING YOUR BUSINESS</h1>
@@ -26,7 +26,7 @@
                     </section>
 
                     <section class="bg-white ">
-                    <div class="mt-0 flex h-[30rem] bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-fixed bg-cover bg-center"></div>
+                    <div class="mt-0 flex h-[50vh] bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-fixed bg-cover bg-center"></div>
                     </section>
 
                     <section class="bg-white ">

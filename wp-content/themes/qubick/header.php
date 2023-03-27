@@ -46,6 +46,56 @@ nav ul li a.active {
   border-bottom: 1px solid #ffff;
 }
 
+.slideshow {
+
+}
+
+.slideshow li {
+  opacity: 0;
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.slideshow li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.slideshow li:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.slideshow li:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.slideshow li:nth-child(4) {
+  animation-delay: 3s;
+}
+
+.slideshow li:nth-child(5) {
+  animation-delay: 4s;
+}
+
+.slideshow li:nth-child(6) {
+  animation-delay: 5s;
+}
+
+
+
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+  } 
+  100% {
+    opacity: 1;
+  }
+}
+
+
     </style>
     
 </head>

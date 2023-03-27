@@ -45,7 +45,7 @@
     <section class="ps-timeline-sec max-w-screen-xl md:px-28 px-5 mx-auto hidden md:flex bg-white" >
 
             <div class="container w-4/5">
-                <ol class="ps-timeline">
+                <ol class="ps-timeline slideshow">
                     
                     <li>
                         <div class="img-handler-bot flex">

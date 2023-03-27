@@ -26,7 +26,7 @@
                     </section>
 
                     <section class="bg-white ">
-                    <div class="mt-0 flex h-[30rem] bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-fixed bg-cover bg-center"></div>
+                    <div class="mt-0 flex h-[15rem] md:h-[30rem] bg-[url('<?php bloginfo('template_directory');?>/images/Home.jpg')] bg-fixed bg-cover bg-center"></div>
                     </section>
 
                     <section class="bg-white ">

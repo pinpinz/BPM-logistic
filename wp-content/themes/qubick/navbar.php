@@ -93,6 +93,19 @@
    
       e.name === 'menu' ? (e.name = "close",list.classList.add('top-[50px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[50px]'),list.classList.remove('opacity-100'))
     }
+
+     var currentURL = window.location.href;
+
+        // Mengambil semua item menu di dalam navigasi
+        var menuItems = document.querySelectorAll('nav ul li a');
+
+        // Looping untuk setiap item menu dan mengecek apakah URL-nya sama dengan URL halaman saat ini
+        for (var i = 0; i < menuItems.length; i++) {
+            if (menuItems[i].href === currentURL) {
+            // Menambahkan kelas "active" pada item menu yang sesuai
+            menuItems[i].classList.add('active');
+            }
+  }
   </script>
   
 </header>

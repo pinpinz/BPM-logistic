@@ -42,7 +42,9 @@
   }
 }
 
-
+nav ul li a.active {
+  border-bottom: 1px solid #ffff;
+}
 
     </style>
     

@@ -13,7 +13,7 @@
                         </div>
                         <div class="inline-grid md:grid max-w-screen-xl mx-10 md:mx-auto gap-14 py-8  grid-cols-2 xl:grid-cols-7 mb-10 xl:h-80">
                            
-                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-500">
+                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-1000">
                                 <div class="l2 rounded-full border-white bg-white place-self-center drop-shadow-[0_0_5px_rgba(0,0,0,0.3)] p-6">
                                     <img class="l3 w-auto place-self-center" src="<?php bloginfo('template_directory');?>/images/service/Asset 1.png" alt="HeroImage"> 
                                 </div>
@@ -21,7 +21,7 @@
                                 <h3 class="l4 hidden max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl  ">AGRICULTURE.</h3>
                                 <p class="l4 hidden max-w-2xl mb-4 text-sm font-normal leading-none tracking-tight text-gray-900 text-justify">To maximize shelf-life and quality. Successfully servicing this colossal requires fast transit times, excellent global coverage, and reliable and well-maintained equipment. </p>
                             </div>
-                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-500">
+                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-1000">
                                   <div class="l2 rounded-full border-white bg-white place-self-center drop-shadow-[0_0_5px_rgba(0,0,0,0.3)] p-6">
                                     <img class="l3 w-auto place-self-center" src="<?php bloginfo('template_directory');?>/images/service/Asset 3.png" alt="HeroImage"> 
                                 </div>
@@ -29,7 +29,7 @@
                                 <h3 class="l4 hidden max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl  ">AUTOMOTIVE.</h3>
                                 <p class="l4 hidden max-w-2xl mb-4 text-sm font-normal leading-none tracking-tight text-gray-900 text-justify">We have the experience, expertise, and reliability to support such time-sensitive requirements  <br>ensuring automotive cargoes are at the right place at the right time.</p>
                             </div>
-                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-500">
+                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-1000">
                                   <div class="l2 rounded-full border-white bg-white place-self-center drop-shadow-[0_0_5px_rgba(0,0,0,0.3)] p-6">
                                     <img class="l3 w-auto place-self-center" src="<?php bloginfo('template_directory');?>/images/service/Asset 4.png" alt="HeroImage"> 
                                 </div>
@@ -37,7 +37,7 @@
                                 <h3 class="l4 hidden max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl  ">CHEMICAL.</h3>
                                 <p class="l4 hidden max-w-2xl mb-4 text-sm font-normal leading-none tracking-tight text-gray-900 text-justify">We will always comply with meeting the highest international safety and environmental standards. </p>
                             </div>
-                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-500">
+                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-1000">
                                   <div class="l2 rounded-full border-white bg-white place-self-center drop-shadow-[0_0_5px_rgba(0,0,0,0.3)] p-6">
                                     <img class="l3 w-auto place-self-center" src="<?php bloginfo('template_directory');?>/images/service/Asset 5.png" alt="HeroImage"> 
                                 </div>
@@ -45,7 +45,7 @@
                                 <h3 class="l4 hidden max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl  ">FOOD AND BEVERAGES.</h3>
                                 <p class="l4 hidden max-w-2xl mb-4 text-sm font-normal leading-none tracking-tight text-gray-900 text-justify">We have long-established experience and expertise, knowledgeable in certifications in the industry such as FSC, PEFC, and V legal, connecting the world’s leading mills with major global consumer markets</p>
                             </div>
-                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-500">
+                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-1000">
                                   <div class="l2 rounded-full border-white bg-white place-self-center drop-shadow-[0_0_5px_rgba(0,0,0,0.3)] p-6">
                                     <img class="l3 w-auto place-self-center" src="<?php bloginfo('template_directory');?>/images/service/Asset 6.png" alt="HeroImage"> 
                                 </div>
@@ -53,7 +53,7 @@
                                 <h3 class="l4 hidden max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl  ">PLASTICS & RUBBERS.</h3>
                                 <p class="l4 hidden max-w-2xl mb-4 text-sm font-normal leading-none tracking-tight text-gray-900 text-justify">From natural polymers and thermoplastics, these commodities are essential to countless other industries that require a global-scale shipping and logistics operation, as well as export knowledge of the sector.</p>
                             </div>
-                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-500">
+                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-1000">
                                   <div class="l2 rounded-full border-white bg-white place-self-center drop-shadow-[0_0_5px_rgba(0,0,0,0.3)] p-6">
                                     <img class="l3 w-auto place-self-center" src="<?php bloginfo('template_directory');?>/images/service/Asset 7.png" alt="HeroImage"> 
                                 </div>
@@ -61,7 +61,7 @@
                                 <h3 class="l4 hidden max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl  ">PAPER & <br>FOREST PROD.</h3>
                                 <p class="l4 hidden max-w-2xl mb-4 text-sm font-normal leading-none tracking-tight text-gray-900 text-justify">we have been working from small to enterprise businesses and have experience in a <br>number of industries, ranging from severed industies as follow.</p>
                             </div>
-                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-500">
+                            <div class="l1 hover:pt-0 pt-5 px-3 place-self-center col-span-1 hover:bg-[#fdce28] hover:w-48 duration-1000">
                                   <div class="l2 rounded-full border-white bg-white place-self-center drop-shadow-[0_0_5px_rgba(0,0,0,0.3)] p-6">
                                     <img class="l3 w-auto place-self-center" src="<?php bloginfo('template_directory');?>/images/service/Asset 8.png" alt="HeroImage"> 
                                 </div>

@@ -48,7 +48,7 @@
                 <ol class="ps-timeline slideshow">
                     
                     <li>
-                        <div class="img-handler-bot flex gs_revealY">
+                        <div class="img-handler-bot flex ">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 3.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">1997</h1><font color="#04179"><h1 class="text-4xl font-bold">¹</h1></font></div>
@@ -62,7 +62,7 @@
                         <span class="ps-sp-bot"></span>
                     </li>
                     <li>
-                        <div class="img-handler-top flex gs_revealY">
+                        <div class="img-handler-top flex ">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 4.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2006</h1><font color="#04179"><h1 class="text-4xl font-bold">²</h1></font></div>
@@ -76,7 +76,7 @@
                         <span class="ps-sp-top"></span>
                     </li>
                     <li>
-                        <div class="img-handler-bot flex gs_revealY">
+                        <div class="img-handler-bot flex ">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 5.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2012</h1><font color="#04179"><h1 class="text-4xl font-bold">³</h1></font></div>
@@ -89,7 +89,7 @@
                         <span class="ps-sp-bot"></span>
                     </li>
                     <li>
-                        <div class="img-handler-top flex gs_revealY">
+                        <div class="img-handler-top flex ">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 6.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2019</h1><font color="#04179"><h1 class="text-4xl font-bold">⁴</h1></font></div>
@@ -102,7 +102,7 @@
                         <span class="ps-sp-top"></span>
                     </li>
                     <li>
-                        <div class="img-handler-bot flex gs_revealY">
+                        <div class="img-handler-bot flex ">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 7.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2020</h1><font color="#04179"><h1 class="text-4xl font-bold">⁵</h1></font></div>
@@ -115,7 +115,7 @@
                         <span class="ps-sp-bot"></span>
                     </li>
                     <li>
-                        <div class="img-handler-top flex gs_revealY">
+                        <div class="img-handler-top flex ">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 8.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2022</h1><font color="#04179"><h1 class="text-4xl font-bold">⁶</h1></font></div>

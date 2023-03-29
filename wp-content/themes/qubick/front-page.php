@@ -69,19 +69,19 @@
                     <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 grid-cols-3 gs_revealY">
                         <div class=" place-self-center col-span-3 lg:col-span-4 md:hover:scale-125 hover:ease-in duration-1000">
                             <a href="service#service">
-                                <img class=" lg:h-60 mb-3 lg:mb-0 hover:scale-125 md:hover:scale-0 hover:ease-in duration-1000" src="<?php bloginfo('template_directory');?>/images/Asset 4.png" alt="HeroImage"> 
+                                <img class=" lg:h-60 mb-3 lg:mb-0 hover:scale-125 md:hover:scale-100 hover:ease-in duration-1000" src="<?php bloginfo('template_directory');?>/images/Asset 4.png" alt="HeroImage"> 
                             </a>
                             <h2 class="max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white  text-center mt-10 pr-7">Sea Freight</h2>
                         </div>
                         <div class="place-self-center col-span-3 lg:col-span-4 md:hover:scale-125 hover:ease-in duration-1000">
                         <a href="service#service">
-                            <img class=" lg:h-60 mb-3 lg:mb-0 hover:scale-125 md:hover:scale-0 hover:ease-in duration-1000" src="<?php bloginfo('template_directory');?>/images/Asset 5.png" alt="HeroImage"> 
+                            <img class=" lg:h-60 mb-3 lg:mb-0 hover:scale-125 md:hover:scale-100 hover:ease-in duration-1000" src="<?php bloginfo('template_directory');?>/images/Asset 5.png" alt="HeroImage"> 
                         </a>
                             <h2 class=" max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white  text-center mt-10 pr-7">Air Freight</h2>
                         </div>
                         <div class="place-self-center col-span-3 lg:col-span-4 md:hover:scale-125 hover:ease-in duration-1000">
                         <a href="service#service">
-                        <img class=" lg:h-60 mb-3 lg:mb-0 hover:scale-125 md:hover:scale-0 hover:ease-in duration-1000" src="<?php bloginfo('template_directory');?>/images/Asset 6.png" alt="HeroImage"> 
+                        <img class=" lg:h-60 mb-3 lg:mb-0 hover:scale-125 md:hover:scale-100 hover:ease-in duration-1000" src="<?php bloginfo('template_directory');?>/images/Asset 6.png" alt="HeroImage"> 
                         </a>
                         <h2 class=" max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white  text-center mt-10 pr-7">Warehousing</h2>
                         </div>

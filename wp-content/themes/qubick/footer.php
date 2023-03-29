@@ -141,7 +141,7 @@
                                                 </a> 
                                         </div>
                                         <p class="mb-4 underline underline-offset-4 text-xs">
-                                        2022 DCM Logistics website design by Branding & Project
+                                        2022 DCM Logistics website design by Brandingg & Project
                                         </p>
                                     </div>
                                 </div>

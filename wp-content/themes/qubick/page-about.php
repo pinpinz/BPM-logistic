@@ -18,16 +18,16 @@
                     <br><br>Our people, from top management to staff level, are hands-on in building this culture to grow the value and exposure of our clients and partners.
                 <br><br>Some of our clients have gained the benefits of greater exposure in the region, getting new prospects, and even expanding their business sectors.</p>
               <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                  <a href="#" class="items-center justify-center md:w-full px-5 py-3 text-sm bg-white font-medium text-center text-gray-900 hover:text-white md:border-2 border-gray-200 rounded-3xl sm:w-auto md: focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700">
+                <div class="items-center justify-center md:w-full px-5 py-3 text-sm bg-white font-medium text-center text-gray-900 hover:ease-in duration-300 hover:border-gray-100  hover:drop-shadow-xl md:border-2 border-gray-200  rounded-3xl sm:w-auto md: focus:ring-4 focus:ring-gray-100 border-gray-600">
                   <img class="md:w-48" src="<?php bloginfo('template_directory');?>/images/about/Asset 1.png" alt="logo">
                   <br>
                   <h1 class="tracking-widest md:text-left text-center max-w-2xl mb-4 text-xl font-bold leading-none tracking-tight  text-[#fdce28] ">BUILD<br>STRONG<br>DISTRIBUTION<br>NETWORK</h1>  
-                </a>
-                  <a href="#" class="items-center justify-center md:w-full px-5 py-3 text-sm bg-white font-medium text-center text-gray-900 hover:text-white md:border-2 border-gray-200 rounded-3xl sm:w-auto md: focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700">
+                </div>
+                <div class="items-center justify-center md:w-full px-5 py-3 text-sm bg-white font-medium text-center text-gray-900 hover:ease-in duration-300 hover:border-gray-100  hover:drop-shadow-xl md:border-2 border-gray-200  rounded-3xl sm:w-auto md: focus:ring-4 focus:ring-gray-100 border-gray-600">
                   <img class="md:w-48" src="<?php bloginfo('template_directory');?>/images/about/Asset 2.png" alt="logo">
                   <br>
                   <h1 class="tracking-widest md:text-left text-center max-w-2xl mb-4 text-xl font-bold leading-none tracking-tight text-[#fdce28] ">BUSINESS<br>TO BUSINESS<br>SERVICE<br></h1>    
-                </a>   
+                </div>   
               </div>
           </div>             
       </div>
@@ -48,7 +48,7 @@
                 <ol class="ps-timeline">
                     
                     <li>
-                        <div class="img-handler-bot flex">
+                        <div class="img-handler-bot flex gs_revealY">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 3.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">1997</h1><font color="#04179"><h1 class="text-4xl font-bold">¹</h1></font></div>
@@ -62,7 +62,7 @@
                         <span class="ps-sp-bot"></span>
                     </li>
                     <li>
-                        <div class="img-handler-top flex">
+                        <div class="img-handler-top flex gs_revealY">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 4.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2006</h1><font color="#04179"><h1 class="text-4xl font-bold">²</h1></font></div>
@@ -76,7 +76,7 @@
                         <span class="ps-sp-top"></span>
                     </li>
                     <li>
-                        <div class="img-handler-bot flex">
+                        <div class="img-handler-bot flex gs_revealY">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 5.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2012</h1><font color="#04179"><h1 class="text-4xl font-bold">³</h1></font></div>
@@ -89,7 +89,7 @@
                         <span class="ps-sp-bot"></span>
                     </li>
                     <li>
-                        <div class="img-handler-top flex">
+                        <div class="img-handler-top flex gs_revealY">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 6.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2019</h1><font color="#04179"><h1 class="text-4xl font-bold">⁴</h1></font></div>
@@ -102,7 +102,7 @@
                         <span class="ps-sp-top"></span>
                     </li>
                     <li>
-                        <div class="img-handler-bot flex">
+                        <div class="img-handler-bot flex gs_revealY">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 7.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2020</h1><font color="#04179"><h1 class="text-4xl font-bold">⁵</h1></font></div>
@@ -115,7 +115,7 @@
                         <span class="ps-sp-bot"></span>
                     </li>
                     <li>
-                        <div class="img-handler-top flex">
+                        <div class="img-handler-top flex gs_revealY">
                             <img class ="w-20" src="<?php bloginfo('template_directory');?>/images/about/Asset 8.png" alt=""/>
                             <div class="w-full absolute mt-6 ml-36">
                               <div class="flex"><h1 class="text-4xl font-bold text-yellow-400 ">2022</h1><font color="#04179"><h1 class="text-4xl font-bold">⁶</h1></font></div>

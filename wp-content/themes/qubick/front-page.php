@@ -67,19 +67,19 @@
                         </div>
                     </div>
                     <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 grid-cols-3 gs_revealY">
-                        <div class=" place-self-center lg:col-span-4 ">
+                        <div class=" place-self-center lg:col-span-4 hover:scale-125 hover:ease-in duration-300">
                             <a href="service#service">
                                 <img class="h-27 lg:h-60 mb-3 lg:mb-0" src="<?php bloginfo('template_directory');?>/images/Asset 4.png" alt="HeroImage"> 
                             </a>
                             <h2 class="hidden lg:block max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white  text-center mt-10 pr-7">Sea Freight</h2>
                         </div>
-                        <div class="flex place-self-center lg:col-span-4 lg:block">
+                        <div class="flex place-self-center lg:col-span-4 lg:block hover:scale-125 hover:ease-in duration-300">
                         <a href="service#service">
                             <img class="h-27 lg:h-60 mb-3 lg:mb-0" src="<?php bloginfo('template_directory');?>/images/Asset 5.png" alt="HeroImage"> 
                         </a>
                             <h2 class="hidden lg:block max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white  text-center mt-10 pr-7">Air Freight</h2>
                         </div>
-                        <div class="flex place-self-center lg:col-span-4 lg:block">
+                        <div class="flex place-self-center lg:col-span-4 lg:block hover:scale-125 hover:ease-in duration-300">
                         <a href="service#service">
                         <img class="h-27 lg:h-60 mb-3 lg:mb-0" src="<?php bloginfo('template_directory');?>/images/Asset 6.png" alt="HeroImage"> 
                         </a>

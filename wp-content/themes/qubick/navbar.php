@@ -5,7 +5,7 @@
         z-[10]
     "
 >
-    <nav class="shadow md:flex md:items-center md:justify-between bg-[#004179]" >
+    <nav class="md:flex md:items-center md:justify-between bg-[#004179]" >
         <div class="
                 flex justify-between align-center
             "
@@ -140,4 +140,5 @@
                                                 md:dark:hover:text-[#fdce28] 
                                                 dark:hover:bg-gray-700 
                                                 dark:hover:text-[#fdce28] 
-                                                md:dark:hover:bg-transparent -->
+                                                md:dark:hover:bg-transparent 
+-->

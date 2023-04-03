@@ -101,7 +101,7 @@
                     
                 </section>
 
-                <section class="bg-white">                 
+                <section class="bg-white" id="2">                 
                     <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 pt-10 md:grid-cols-12 grid-cols-6">              
                             <div class="lg:mr-auto place-self-center col-span-6 md:col-span-7 md:px-24 px-4">
                                 <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-[#fdce28] ">AIR FREIGHT</h1>
@@ -115,7 +115,7 @@
                     </div>
                 </section>
 
-                <section class="bg-[#004179]">    
+                <section class="bg-[#004179]" >    
                         
                        <div class="grid max-w-screen-xl px-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-4 lg:grid-cols-12 ">
                         <div class="place-self-start lg:col-span-12 ">
@@ -140,7 +140,7 @@
                     
                 </section>
 
-                <section class="bg-white">    
+                <section class="bg-white" id="3">    
                         
                     <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 pt-10 md:grid-cols-12 grid-cols-6">
                            

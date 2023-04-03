@@ -85,7 +85,7 @@
                                 <div>
                                     <h2 class="mb-2 text-xs font-medium text-black">Operational Office - Medan, Indonesia</h2>
                                     <ul class="text-gray-500 dark:text-gray-400">
-                                        <p class=""></p>
+                                        <p class="">-</p>
                                         <li class="md:mb-8">
                                             <a href="#" class="flex justify-start text-black hover:underline text-xs ">Graha Harmoni 5th Floor, <br>Jl Gaharu no.28, Medan Sumatera Utara 20235 <br>Ph.+62614141755</a>
                                         </li>

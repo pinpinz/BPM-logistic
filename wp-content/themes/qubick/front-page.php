@@ -49,7 +49,7 @@
                                 <h1 class="max-w-2xl mb-4 text-2xl font-bold leading-none tracking-tight md:text-4xl xl:text-4xl text-[#fdce28] ">2019</h1>
                                 <p class="max-w-2xl mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm  font-bold">The establishment od subsidiary PT.Benua Cahaya Mandiri <br>at Indonesia & Vietname.</p>
                                 <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-[#fdce28] font-medium text-center text-gray-900 hover:text-white rounded-lg sm:w-auto hover:bg-[#004179] focus:ring-4 focus:ring-gray-100 ">
+                                    <a href="About" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-[#fdce28] font-medium text-center text-gray-900 hover:text-white rounded-lg sm:w-auto hover:bg-[#004179] focus:ring-4 focus:ring-gray-100 ">
                                         More
                                     </a> 
                                     
@@ -74,13 +74,13 @@
                             <h2 class="max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white  text-center mt-10 pr-7">Sea Freight</h2>
                         </div>
                         <div class="place-self-center col-span-3 lg:col-span-4 md:hover:scale-125 hover:ease-in duration-1000">
-                        <a href="service#service">
+                        <a href="service#2">
                             <img class=" lg:h-60 mb-3 lg:mb-0 hover:scale-125 md:hover:scale-100 hover:ease-in duration-1000" src="<?php bloginfo('template_directory');?>/images/Asset 5.png" alt="HeroImage"> 
                         </a>
                             <h2 class=" max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white  text-center mt-10 pr-7">Air Freight</h2>
                         </div>
                         <div class="place-self-center col-span-3 lg:col-span-4 md:hover:scale-125 hover:ease-in duration-1000">
-                        <a href="service#service">
+                        <a href="service#3">
                         <img class=" lg:h-60 mb-3 lg:mb-0 hover:scale-125 md:hover:scale-100 hover:ease-in duration-1000" src="<?php bloginfo('template_directory');?>/images/Asset 6.png" alt="HeroImage"> 
                         </a>
                         <h2 class=" max-w-2xl mb-4 text-2xl font-normal leading-none tracking-tight md:text-2xl xl:text-2xl text-white  text-center mt-10 pr-7">Warehousing</h2>

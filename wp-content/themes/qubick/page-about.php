@@ -3,15 +3,15 @@
 ?>
 <main class="mt-10">
     <section class="bg-white -mt-10 mb-16">
-       <div class="grid max-w-screen-xl px-4 md:pt-20 pb-8 mx-auto md:gap-2 gap-1 py-16 grid-cols-12">
-          <div class="hidden mt-0 col-span-4 md:block md:pl-24 gs_revealY">
-                  <img class="max-w-l mb-10" src="<?php bloginfo('template_directory');?>/images/about/Asset12.png" alt="logo">
+       <div class="grid max-w-screen-xl px-4 md:pt-20 pb-8 mx-auto md:gap-2 gap-1 py-16 md:grid-cols-12">
+          <div class="md:mt-28 md:col-span-6 gs_revealY">
+                  <img class="w-1/2 mb-5 md:float-right" src="<?php bloginfo('template_directory');?>/images/about/Asset12.png" alt="logo">
            
-                  <img class="max-w mb-2 " src="<?php bloginfo('template_directory');?>/images/about/ABOUT.jpg" alt="HeroImage">  
+                  <img class="w-screen mb-2" src="<?php bloginfo('template_directory');?>/images/about/ABOUT.jpg" alt="HeroImage">  
                   
           </div>
           
-          <div class="mr-auto place-self-center md:col-span-8 col-span-12 md:px-24 gs_revealX">
+          <div class="mr-auto place-self-center md:col-span-6 md:px-12 gs_revealX">
                   <h1 class="max-w-l mb-4 text-2xl font-bold leading-none tracking-tight  text-[#fdce28] ">WHO WE ARE ?</h1>  
                   <p class="md:w-[30rem] mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">"Creating a network to assist you in reaching your potential buyers and growing your business."
                     <br><br>We are a dedicated, professional, transparent team with 12 years of experience serving our client's logistics needs and creating a total solution by connecting and providing solutions to their business (not just logistics) while prioritizing a long-term relationship to grow.
@@ -42,9 +42,9 @@
         </div>
     </section>
 
-    <section class="ps-timeline-sec max-w-screen-xl md:px-28 px-5 mx-auto hidden md:flex bg-white" >
+    <section class="ps-timeline-sec max-w-screen-xl md:px-28 px-5 mx-auto bg-white" >
 
-            <div class="container w-4/5">
+            <div class="container md:w-4/5">
                 <ol class="ps-timeline slideshow">
                     
                     <li>

@@ -5,7 +5,7 @@
         z-[10]
     "
 >
-    <nav class="md:flex md:items-center md:justify-between bg-[#004179]" >
+    <nav class="md:flex md:items-center md:justify-between bg-[#003b99]" >
         <div class="
                 flex justify-between align-center
             "
@@ -33,7 +33,7 @@
             </a>
 
             <span class="text-3xl cursor-pointer mx-2 md:hidden block mt-3 ">
-                <ion-icon name="menu" class="bg-[#004179]" onclick="Menu(this)" style="color: white;"></ion-icon>
+                <ion-icon name="menu" class="bg-[#003b99]" onclick="Menu(this)" style="color: white;"></ion-icon>
             </span>
 
         </div>
@@ -68,7 +68,7 @@
                                                 top-[-400px] 
                                                 transition-all 
                                                 ease-in 
-                                                bg-[#004179]
+                                                bg-[#003b99]
                                                 duration-500', // shoulde be for <ul></ul> class
                             'add_li_class' => ' mx-6
                                                 my-5

@@ -141,7 +141,8 @@
                                                 </a> 
                                         </div>
                                         <p class="mb-4 underline underline-offset-4 text-xs">
-                                        2022 DCM Logistics website design by Brandingg & Project
+                                       2022 DCM Logistics website design by <a  href="http://brandingprojects.co/" class="text-black font-bold">Brandingg & Project </a>, <a  href="https://qubick.id/" class="text-black font-bold">Code by Qubick</a>,
+                                      
                                         </p>
                                     </div>
                                 </div>

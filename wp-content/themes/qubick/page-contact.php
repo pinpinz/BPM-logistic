@@ -45,14 +45,18 @@
                                                 <h1 class = "max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-[#fdce28] ">Get In Touch</h1>
                                                
                                             </div>
-                                            <form name="sentMessage" id="contactForm" novalidate>
+                                            <form name="sentMessage" id="contactForm" >
                                                 <div id="step1" class="tabcontent">
-                                                    <p>Let's start a conversation about a new business, services or inquiries.</p>
+                                                    <p>Let's start a conversation about a new business, services or inquiries.</p><br>
                                                     
-                                              
-                                               
-                                                
-                                               
+                                                      <input type="radio" id="shippingInquiry" name="fav_language" value="shippingInquiry" >
+                                                      <label for="shippingInquiry" class="text-xl font-bold" >Shipping Inquiry</label><br><br>
+                                                      <input type="radio" id="generalInquiry" name="fav_language" value="generalInquiry">
+                                                      <label for="generalInquiry" class="text-xl font-bold" >General Inquiry</label><br><br>
+                                                      <input type="radio" id="newProject" name="fav_language" value="newProject">
+                                                      <label for="newProject" class="text-xl font-bold" >New Project</label><br><br>
+                                                      <input type="radio" id="other" name="fav_language" value="other">
+                                                      <label for="other" class="text-xl font-bold" >Other</label>  <br><br>
 
                                                 </div>
 
@@ -62,39 +66,40 @@
 
                                                    <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Full Name</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="name" class="form-control" placeholder="Enter Your full name" required="required">
+                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="name" class="form-control" placeholder="Enter Your full name" required title="Name needed">
                                                     </div>
 
                                                      <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Company Name</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="companyName" class="form-control" placeholder="Type your company name" required="required">
+                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="companyName" class="form-control" placeholder="Type your company name" required title="Company name needed">
                                                     </div>
 
                                                      <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Industries</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="industry" class="form-control" placeholder="Write down the type of your industry" required="required">
+                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="industry" class="form-control" placeholder="Write down the type of your industry" required title="Industry needed">
                                                     </div>
 
                                                      <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Email Address</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="email" class="form-control" placeholder="Enter your email address" required="required">
+                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="email" class="form-control" placeholder="Enter your email address" required title="Email Address needed">
                                                     </div>
 
                                                      <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Phone Number (Optional)</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="phone" class="form-control" placeholder="Enter your phone number" required="required">
+                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="phone" class="form-control" placeholder="Enter your phone number" >
                                                     </div>
                                                                                                                                              
                                               
                                                 </div>
 
                                                 <div id="step3" class="tabcontent">
-                                                       <p>How can I help you?Write down your request here.</p>
-                                                 <div class="mt-5">
-                                                    <p class="text-2xl text-[#fdce28]">Message</p>
-                                                    <textarea class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" name="message" id="message" class="form-control" rows="4" placeholder="type your massage here" required></textarea>
+                                                    <p>How can I help you?Write down your request here.</p>
+                                                    <div class="mt-5">
+                                                        <p class="text-2xl text-[#fdce28]">Message</p>
+                                                        <textarea class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" name="message" id="message" class="form-control" rows="4" placeholder="type your massage here" required></textarea> 
+                                                    </div>
+                                                    <input class="bg-[#fdce28] rounded-lg p-3 float-right mt-4" type="submit" value="Submit"></button>
                                                     
-                                                </div>
                                                 </div>
                                                 
                                             </form>
@@ -107,30 +112,30 @@
                                                      <button class="bg-[#fdce28] rounded-lg p-3 float-right" type=""  onclick="openCity(event, 'step3', 'step3.')">next</button>
                                                  </div>
                                                      <div id="step3." class="tabcontent w-full">            
-                                                     <button class="bg-[#fdce28] rounded-lg p-3 float-left" type=""  onclick="openCity(event, 'step2', 'step2.')">back</button>                                   
-                                                     <button class="bg-[#fdce28] rounded-lg p-3 float-right" type=""  onclick="openCity(event, 'step3', 'step3.')">Submit</button>
+                                                     <button class="bg-[#fdce28] rounded-lg p-3 float-left" type=""  onclick="openCity(event, 'step2', 'step2.')">back</button>  
                                                  </div>
                                                
                                             </div>
                                             
                                                    <script>
-function openCity(evt, kode1,kode2) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) { 
-    tabcontent[i].style.display = "none";
-  }
- 
-  document.getElementById(kode1).style.display = "block"; 
-  document.getElementById(kode2).style.display = "block"; 
-}
+                                                    function openCity(evt, kode1,kode2) {
+                                                    var i, tabcontent, tablinks;
+                                                    tabcontent = document.getElementsByClassName("tabcontent");
+                                                    for (i = 0; i < tabcontent.length; i++) { 
+                                                        tabcontent[i].style.display = "none";
+                                                    }
+                                                    
+                                                    document.getElementById(kode1).style.display = "block"; 
+                                                    document.getElementById(kode2).style.display = "block"; 
+                                                    }
 
-openCity(event, 'step1', 'step1.');
+                                                    openCity(event, 'step1', 'step1.');
 
 
-   
-</script>                                 
-                                                                  
+                                                    
+                                                    </script>             
+                                                    
+                                                           
                                 
                                    <div class="mt-5 mb-6 flex justify-end hidden">
                                                 <a

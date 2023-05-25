@@ -43,15 +43,22 @@
                 
                 <div class="flex py-2">
                     <h1 class="text-2xl font-bold text-black ">¹ &nbsp;&nbsp;</h1> <h1 class="text-4xl font-bold text-yellow-400 mb-4">1997</h1>
-                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">PT. Antar Benua Cahaya begins its operation as land transportation and a customs broker.</p>
+                </div>
+                <div>
+                <p class=" pl-2 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">PT. Antar Benua Cahaya begins its operation as land transportation and a customs broker.</p>
                 </div>
                 <div class="flex py-2">
                     <h1 class="text-2xl font-bold text-black ">³ &nbsp;&nbsp;</h1> <h1 class="text-4xl font-bold text-yellow-400 mb-4">2012</h1>
-                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">Achieved Customer Award from PT. Terminal Peti Kemas Surabaya.</p>
+                    
+                </div>
+                <div>
+                <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">Achieved Customer Award from PT. Terminal Peti Kemas Surabaya.</p>
                 </div>
                 <div class="flex py-2">
                     <h1 class="text-2xl font-bold text-black ">⁵ &nbsp;&nbsp;</h1> <h1 class="text-4xl font-bold text-yellow-400 mb-4">2020</h1>
-                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">Extend the business coverage in Hanoi, Vietnam</p>
+                </div>
+                <div>
+                <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">Extend the business coverage in Hanoi, Vietnam</p>
                 </div>
               </div>
              <div class="  md:col-span-1 lg:block "></div>
@@ -60,14 +67,20 @@
               <div class=" lg:mt-0 lg:col-span-3 lg:block">
                <div class="flex py-2">
                     <h1 class="text-2xl font-bold text-black ">² &nbsp;&nbsp;</h1> <h1 class="text-4xl font-bold text-yellow-400 mb-4">2006</h1>
-                    <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">New management expanded the business into intermodal logistics and warehousing.</p>
+                </div>
+                <div>
+                <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">New management expanded the business into intermodal logistics and warehousing.</p>
                 </div>
                 <div class="flex py-2">
                     <h1 class="text-2xl font-bold text-black ">⁴ &nbsp;&nbsp;</h1> <h1 class="text-4xl font-bold text-yellow-400 mb-4">2019</h1>
+                </div>
+                <div>
                     <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">PT. Benua Cahaya Mandiri begins it's operation as international Freight Forwarding with two offices in Surabaya and Medan, Indonesia</p>
                 </div>
                 <div class="flex py-2">
                     <h1 class="text-2xl font-bold text-black ">⁶ &nbsp;&nbsp;</h1> <h1 class="text-4xl font-bold text-yellow-400 mb-4">2022</h1>
+                </div>
+                <div>
                     <p class=" pl-2 mb-6 text-gray-700 lg:mb-8 md:text-sm lg:text-sm dark:text-gray-700 font-medium text-justify ">New logo with new achievement.</p>
                 </div>
               </div>

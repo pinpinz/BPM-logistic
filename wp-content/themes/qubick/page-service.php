@@ -128,7 +128,7 @@
                                 <img class="md:pl-24 py-10 md:py-0" src="<?php bloginfo('template_directory');?>/images/revisi/Asset 3@4x 1.png" alt="HeroImage">              
                             </div>
                             <div class="lg:mr-auto place-self-center col-span-6 md:col-span-7 md:px-24 px-4">
-                                <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-extrabold leading-none tracking-tight text-[#fdce28] ">CROSS COUNTRY BOOKING</h1>
+                                <h1 class="max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-extrabold leading-none tracking-tight text-[#fdce28] ">CROSS COUNTRY SHIPMENT</h1>
                                 <p class="max-w-2xl mb-6 text-black lg:mb-8 text-sm  font-normal">
                             Cross Trade Shipments Made Easy. Our freight forwarding services are designed to make cross trade shipments easy and stress-free. With our global network of partners and our experience in global presence of logistics, we can help you move your goods from and to anywhere in the world with ease despite of your current location or home country.
                                 </p>

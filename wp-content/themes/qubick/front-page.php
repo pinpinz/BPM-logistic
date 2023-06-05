@@ -7,7 +7,7 @@
 
 
                 <section class="bg-white ">
-                        <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 mb-10 md:mb-0 ">
+                        <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 mb-10 md:mb-2 ">
                             <div class="block md:py-32 lg:col-span-4 lg:flex ">
                                 <img class="md:pl-28 px-10 py-10 md:py-0 md:px-0" src="<?php bloginfo('template_directory');?>/images/revisi/Asset 4@4x.png" alt="HeroImage">              
                             </div>
@@ -15,7 +15,7 @@
                                 <h1 class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-4xl xl:text-4xl text-[#fdce28] ">CONNECTING YOU, <br>CONNECTING YOUR BUSINESS</h1>
                                 <p class="max-w-2xl mb-6 text-black lg:mb-8 md:text-sm lg:text-sm font-bold">"Creating a network to assist you in reachingyour potential buyers and growing your business." Some of our cliet have gained the benefit of greater exposure in the region, getting new prospects, and even expanding their business sector.</p>
                                 <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                                    <a href="contact" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-[#fdce28] font-medium text-center text-black hover:text-white border border-gray-200 rounded-lg sm:w-auto hover:bg-[#003b99] focus:ring-4 focus:ring-gray-100 ">
+                                    <a href="contact" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-[#fdce28] font-medium text-center text-black hover:text-white rounded-lg sm:w-auto hover:bg-[#003b99] focus:ring-4 focus:ring-gray-100 ">
                                         Request for quote
                                     </a> 
                                     
@@ -23,7 +23,7 @@
                             </div>
                                         
                         </div>
-                    </section>
+                </section>
 
                     <section class="bg-white ">
                     <div class="mt-0 flex h-[50vh] bg-[url('<?php bloginfo('template_directory');?>/images/revisi/bg-revisi.png')] bg-fixed bg-cover bg-center"></div>
@@ -40,9 +40,9 @@
                             </div>
                             
                             <div class="lg:mr-auto place-self-center lg:col-span-8 lg:px-24 gs_revealY">
-                                <p class="max-w-2xl mb-6 text-[#003b99] lg:mb-8 md:text-sm lg:text-sm  font-bold">Has been engaged in logistic services for more than 25 years, we provide better <br>service by create, connect, and provide total solution to our clients' businesses <br>while prioritizing long term relationship to grow together.</p>
-                                 <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                                    <a href="About" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-[#fdce28] font-medium text-center text-black hover:text-white rounded-lg sm:w-auto hover:bg-[#003b99] focus:ring-4 focus:ring-gray-100 ">
+                                <p class="max-w-2xl mb-6 text-black lg:mb-2 md:text-sm lg:text-sm  font-bold">Has been engaged in logistic services for more than 25 years, we provide better <br>service by create, connect, and provide total solution to our clients' businesses <br>while prioritizing long term relationship to grow together.</p>
+                                 <div class="space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
+                                    <a href="About" class="inline-flex items-center justify-center w-full px-5 py-2 text-sm bg-[#fdce28] font-medium text-center text-black hover:text-white rounded-lg sm:w-auto hover:bg-[#003b99] focus:ring-4 focus:ring-gray-100 ">
                                         More
                                     </a> 
                                     

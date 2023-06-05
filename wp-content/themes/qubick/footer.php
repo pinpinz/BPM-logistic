@@ -102,7 +102,7 @@
                                     </ul>
                                 </div>
                                 <div>
-                                    <h2 class="mb-2 text-xs font-medium text-black">Reach Us</h2>
+                                    <h2 class="mb-2 text-xs font-medium text-black"></h2>
                                     <div class="container pt-1">
                                         <div class="mb-6 flex justify-start">
                                                 <a
@@ -111,35 +111,10 @@
                                                 class="m-1 h-6 w-6 mr-4 rounded-full border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:opacity-50 hover:opacity-50 focus:outline-none focus:ring-0"
                                                 data-te-ripple-init
                                                 data-te-ripple-color="light">
-                                                <img class="w-40" src="<?php bloginfo('template_directory');?>/images/Asset 7.png" alt="wa">
+                                                <!-- <img class="w-40" src="<?php bloginfo('template_directory');?>/images/Asset 7.png" alt="wa"> -->
                                                 </a>
 
-                                                <a
-                                                href="#!"
-                                                type="button"
-                                                class="m-1 h-6 w-6 mr-4 border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:opacity-50 hover:opacity-50 focus:outline-none focus:ring-0"
-                                                data-te-ripple-init
-                                                data-te-ripple-color="light">
-                                                <img class="w-40" src="<?php bloginfo('template_directory');?>/images/Asset 8.png" alt="wa">
-                                                </a>
-
-                                                <a
-                                                href="#!"
-                                                type="button"
-                                                class="m-1 h-6 w-6 mr-4 border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:opacity-50 hover:opacity-50 focus:outline-none focus:ring-0"
-                                                data-te-ripple-init
-                                                data-te-ripple-color="light">
-                                                <img class="w-40" src="<?php bloginfo('template_directory');?>/images/Asset 9.png" alt="wa">
-                                                </a>
-
-                                                <a
-                                                href="#!"
-                                                type="button"
-                                                class="m-1 h-6 w-6 mr-4 border-black uppercase leading-normal text-black transition duration-20 ease-in-out hover:opacity-50 hover:opacity-50 focus:outline-none focus:ring-0"
-                                                data-te-ripple-init
-                                                data-te-ripple-color="light">
-                                                <img class="w-40" src="<?php bloginfo('template_directory');?>/images/Asset 10.png" alt="wa">
-                                                </a> 
+                                            
                                         </div>
                                         <p class="mb-4 underline underline-offset-4 text-xs">
                                        2022 DCM Logistics website design by <a  href="http://brandingprojects.co/" class="text-black font-bold">Brandingg & Project </a>, <a  href="https://qubick.id/" class="text-black font-bold">Code by Qubick</a>,

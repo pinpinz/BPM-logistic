@@ -69,7 +69,7 @@
 
 </script>
         
-                        <div class="lg:px-60" style="background-color:#F2F2F2;">
+                        <div class="lg:px-60 flex-shrink-0" style="background-color:#F2F2F2;">
                             <div class="grid grid-cols-1 gap-8 px-6 py-4 md:grid-cols-4">
                             <img class="w-40" src="<?php bloginfo('template_directory');?>/images/AssetLogo12.png" alt="logo">
                             </div>

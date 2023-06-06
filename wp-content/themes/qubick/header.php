@@ -112,10 +112,30 @@ nav ul li a.active {
   border-top: none;
 }
 
+ /* Mengubah tampilan radio button yang dipilih */
+    .custom-radio
+    {
+      opacity: 0;
+    }
+    .custom-radio:checked + .checkmark {
+      background-color: #fdce28;
+    }
+
+    /* Menambahkan gaya kustom pada radio button */
+    .checkmark {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background-color: #fff;
+      border: 1px solid #999;
+      border-radius: 50%;
+      transition: background-color 0.3s ease;
+    }
+
     </style>
     
 </head>
-    <body class="realtive">
+    <body class="realtive ">
 
         <?php include 'navbar.php';?>
     

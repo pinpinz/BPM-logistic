@@ -2,7 +2,7 @@
     include 'header.php';
 ?>
 
-<main class="mt-20">
+<main class="mt-20 md:h-[70vh]">
  
 
 
@@ -40,7 +40,7 @@
                         </div>
                         <div class="col-span-5 mb-10">
                             <div class="container gs_revealX w-full">
-                               
+
                                         <div>
                                                 <h1 class = "max-w-2xl mb-4 text-2xl md:text-4xl xl:text-4xl font-bold leading-none tracking-tight text-[#fdce28] ">Get In Touch</h1>
                                                
@@ -49,14 +49,18 @@
                                                 <div id="step1" class="tabcontent">
                                                     <p>Let's start a conversation about a new business, services or inquiries.</p><br>
                                                     
-                                                      <input type="radio" id="shippingInquiry" name="fav_language" value="shippingInquiry" >
-                                                      <label for="shippingInquiry" class="text-xl font-bold" >Shipping Inquiry</label><br><br>
-                                                      <input type="radio" id="generalInquiry" name="fav_language" value="generalInquiry">
-                                                      <label for="generalInquiry" class="text-xl font-bold" >General Inquiry</label><br><br>
-                                                      <input type="radio" id="newProject" name="fav_language" value="newProject">
-                                                      <label for="newProject" class="text-xl font-bold" >New Project</label><br><br>
-                                                      <input type="radio" id="other" name="fav_language" value="other">
-                                                      <label for="other" class="text-xl font-bold" >Other</label>  <br><br>
+                                                      <input type="radio" id="shippingInquiry" name="fav_language" value="shippingInquiry" class="custom-radio" >
+                                                     <span class="checkmark"></span>
+                                                      <label for="shippingInquiry" class="text-xl font-bold hover:text-[#fdce28]" >Shipping Inquiry</label><br><br>
+                                                      <input type="radio" id="generalInquiry" name="fav_language" value="generalInquiry" class="custom-radio">
+                                                     <span class="checkmark"></span>
+                                                      <label for="generalInquiry" class="text-xl font-bold hover:text-[#fdce28]" >General Inquiry</label><br><br>
+                                                      <input type="radio" id="newProject" name="fav_language" value="newProject" class="custom-radio">
+                                                     <span class="checkmark"></span>
+                                                      <label for="newProject" class="text-xl font-bold hover:text-[#fdce28]" >New Project</label><br><br>
+                                                      <input type="radio" id="other" name="fav_language" value="other" class="custom-radio">
+                                                     <span class="checkmark"></span>
+                                                      <label for="other" class="text-xl font-bold hover:text-[#fdce28]" >Other</label>  <br><br>
 
                                                 </div>
 
@@ -66,27 +70,27 @@
 
                                                    <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Full Name</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="name" class="form-control" placeholder="Enter Your full name" required title="Name needed">
+                                                     <input class="rounded-lg border-black border bg-white p-2 my-3 w-full" type="text" id="name" class="form-control" placeholder="Enter Your full name" required title="Name needed">
                                                     </div>
 
                                                      <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Company Name</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="companyName" class="form-control" placeholder="Type your company name" required title="Company name needed">
+                                                     <input class="rounded-lg border-black border bg-white p-2 my-3 w-full" type="text" id="companyName" class="form-control" placeholder="Type your company name" required title="Company name needed">
                                                     </div>
 
                                                      <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Industries</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="industry" class="form-control" placeholder="Write down the type of your industry" required title="Industry needed">
+                                                     <input class="rounded-lg border-black border bg-white p-2 my-3 w-full" type="text" id="industry" class="form-control" placeholder="Write down the type of your industry" required title="Industry needed">
                                                     </div>
 
                                                      <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Email Address</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="email" class="form-control" placeholder="Enter your email address" required title="Email Address needed">
+                                                     <input class="rounded-lg border-black border bg-white p-2 my-3 w-full" type="text" id="email" class="form-control" placeholder="Enter your email address" required title="Email Address needed">
                                                     </div>
 
                                                      <div class="mt-3">
                                                      <p class="text-xl text-[#fdce28]">Phone Number (Optional)</p>
-                                                     <input class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" type="text" id="phone" class="form-control" placeholder="Enter your phone number" >
+                                                     <input class="rounded-lg border-black border bg-white p-2 my-3 w-full" type="text" id="phone" class="form-control" placeholder="Enter your phone number" >
                                                     </div>
                                                                                                                                              
                                               
@@ -96,23 +100,23 @@
                                                     <p>How can I help you?Write down your request here.</p>
                                                     <div class="mt-5">
                                                         <p class="text-2xl text-[#fdce28]">Message</p>
-                                                        <textarea class="rounded-lg border-slate-300 border-2 bg-white p-1 my-3 w-full" name="message" id="message" class="form-control" rows="4" placeholder="type your massage here" required></textarea> 
+                                                        <textarea class="rounded-lg border-black border bg-white p-2 my-3 w-full" name="message" id="message" class="form-control" rows="4" placeholder="type your massage here" required></textarea> 
                                                     </div>
-                                                    <input class="bg-[#fdce28] rounded-lg p-3 float-right mt-4" type="submit" value="Submit"></button>
+                                                    <input class="bg-[#fdce28] rounded-lg px-4 py-1 float-right mt-4" type="submit" value="Submit"></button>
                                                     
                                                 </div>
                                                 
                                             </form>
                                             <div>
                                                  <div id="step1." class="tabcontent w-full">
-                                                    <button class="bg-[#fdce28] rounded-lg p-3 float-right" type=""  onclick="openCity(event, 'step2', 'step2.')">next</button>
+                                                    <button class="bg-[#fdce28] rounded-lg px-4 py-1  float-right" type=""  onclick="openCity(event, 'step2', 'step2.')">Next</button>
                                                  </div>
                                                  <div id="step2." class="tabcontent w-full">
-                                                    <button class="bg-[#fdce28] rounded-lg p-3 float-left" type=""  onclick="openCity(event, 'step1', 'step1.')">back</button>
-                                                     <button class="bg-[#fdce28] rounded-lg p-3 float-right" type=""  onclick="openCity(event, 'step3', 'step3.')">next</button>
+                                                    <button class="bg-[#fdce28] rounded-lg px-4 py-1  float-left" type=""  onclick="openCity(event, 'step1', 'step1.')">Prev</button>
+                                                     <button class="bg-[#fdce28] rounded-lg px-4 py-1  float-right" type=""  onclick="openCity(event, 'step3', 'step3.')">Next</button>
                                                  </div>
                                                      <div id="step3." class="tabcontent w-full">            
-                                                     <button class="bg-[#fdce28] rounded-lg p-3 float-left" type=""  onclick="openCity(event, 'step2', 'step2.')">back</button>  
+                                                     <button class="bg-[#fdce28] rounded-lg px-4 py-1  float-left" type=""  onclick="openCity(event, 'step2', 'step2.')">Prev</button>  
                                                  </div>
                                                
                                             </div>
